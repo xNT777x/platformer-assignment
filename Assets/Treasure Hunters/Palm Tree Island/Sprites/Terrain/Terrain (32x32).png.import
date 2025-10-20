@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bla15fbbs47l"
-path="res://.godot/imported/Terrain (32x32).png-b49701e830e33b6427c6cd8d868ae742.ctex"
+path="res://.godot/imported/Terrain (32x32).png-002e4bbe6467f1deb80f2491f8b80fe2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png"
-dest_files=["res://.godot/imported/Terrain (32x32).png-b49701e830e33b6427c6cd8d868ae742.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png"
+dest_files=["res://.godot/imported/Terrain (32x32).png-002e4bbe6467f1deb80f2491f8b80fe2.ctex"]
 
 [params]
 

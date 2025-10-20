@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhwn3dmoj62rv"
-path="res://.godot/imported/1.png-2b6715a012b6ccc1a5dc4b270c815e29.ctex"
+path="res://.godot/imported/1.png-d2c76428973bff5c7ad111ad3dff8235.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Destroyed/1.png"
-dest_files=["res://.godot/imported/1.png-2b6715a012b6ccc1a5dc4b270c815e29.ctex"]
+source_file="res://assets/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Destroyed/1.png"
+dest_files=["res://.godot/imported/1.png-d2c76428973bff5c7ad111ad3dff8235.ctex"]
 
 [params]
 

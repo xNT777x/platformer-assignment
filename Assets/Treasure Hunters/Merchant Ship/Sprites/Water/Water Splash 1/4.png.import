@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2cn6enwlpf"
-path="res://.godot/imported/4.png-f72469993ab8aacc37c01032057ae39c.ctex"
+path="res://.godot/imported/4.png-f4b16d2a82c0054ca404b51709739a26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Water/Water Splash 1/4.png"
-dest_files=["res://.godot/imported/4.png-f72469993ab8aacc37c01032057ae39c.ctex"]
+source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Water/Water Splash 1/4.png"
+dest_files=["res://.godot/imported/4.png-f4b16d2a82c0054ca404b51709739a26.ctex"]
 
 [params]
 
