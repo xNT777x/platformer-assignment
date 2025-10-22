@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://eym8bc1h8bnn"
-path="res://.godot/imported/1.png-efc612833c7d805eabef8e176c79e8c1.ctex"
+path="res://.godot/imported/1.png-f3a6abb9a0e8e4ec29dd4deb0eb5d98c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Anchor/1.png"
-dest_files=["res://.godot/imported/1.png-efc612833c7d805eabef8e176c79e8c1.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Anchor/1.png"
+dest_files=["res://.godot/imported/1.png-f3a6abb9a0e8e4ec29dd4deb0eb5d98c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buiggkruqd5eu"
-path="res://.godot/imported/2.png-fd0a9d61461719ee50007af5fd409a9f.ctex"
+path="res://.godot/imported/2.png-ec05ee5d38106af6af41577e4c422e9f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Hit/2.png"
-dest_files=["res://.godot/imported/2.png-fd0a9d61461719ee50007af5fd409a9f.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Hit/2.png"
+dest_files=["res://.godot/imported/2.png-ec05ee5d38106af6af41577e4c422e9f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://criniojgcgt8o"
-path="res://.godot/imported/Attack Effect 04.png-de1669d20e5f85dfa8019e75c2c2bbe4.ctex"
+path="res://.godot/imported/Attack Effect 04.png-24bb17fe9d599a980c09c5c2a3a934e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 04.png"
-dest_files=["res://.godot/imported/Attack Effect 04.png-de1669d20e5f85dfa8019e75c2c2bbe4.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 04.png"
+dest_files=["res://.godot/imported/Attack Effect 04.png-24bb17fe9d599a980c09c5c2a3a934e8.ctex"]
 
 [params]
 
