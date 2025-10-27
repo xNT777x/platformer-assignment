@@ -58,6 +58,11 @@ animations = [{
 "loop": true,
 "name": &"Idle",
 "speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_anxlp"]
@@ -71,8 +76,9 @@ scale = Vector2(4, 4)
 script = ExtResource("1_anxlp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ks2v0")
-animation = &"Idle"
+animation = &"new_animation"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="AnimatedSprite2D"]
 

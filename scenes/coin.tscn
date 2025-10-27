@@ -30,13 +30,15 @@ animations = [{
 radius = 5.0
 
 [node name="Coin" type="Area2D"]
+texture_filter = 1
+position = Vector2(-1, 9)
 scale = Vector2(4, 4)
 script = ExtResource("1_1ikuy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xmuha")
 animation = &"Idle"
-frame_progress = 0.79338974
+frame_progress = 0.8673909
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_kfxoj")

@@ -11,7 +11,6 @@ func _ready() -> void:
 	if anim.sprite_frames and anim.sprite_frames.has_animation("Idle"):
 		anim.play("Idle")
 	connect("body_entered", Callable(self, "_on_body_entered"))
-	# AnimatedSprite2D in Godot 4.5 uses "animation_finished" signal
 	anim.connect("animation_finished", Callable(self, "_on_animation_finished"))
 
 func _on_body_entered(body: Node) -> void:
