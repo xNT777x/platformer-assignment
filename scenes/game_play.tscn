@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://dun2q5f76thoi"]
+[gd_scene load_steps=11 format=4 uid="uid://dun2q5f76thoi"]
 
 [ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
 [ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
 [ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
+[ext_resource type="PackedScene" uid="uid://b15a5dnp4grck" path="res://scenes/box.tscn" id="5_8ik6i"]
 [ext_resource type="PackedScene" uid="uid://dqojtyf4in0y3" path="res://scenes/player.tscn" id="10_k38ww"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fm4b6"]
@@ -427,3 +428,6 @@ position = Vector2(-137, 338)
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(27.399998, -67.6)
 scale = Vector2(0.19999999, 0.19999999)
+
+[node name="Box" parent="." groups=["Player"] instance=ExtResource("5_8ik6i")]
+position = Vector2(996, 416)
