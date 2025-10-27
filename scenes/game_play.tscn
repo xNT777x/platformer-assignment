@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=4 uid="uid://dun2q5f76thoi"]
+[gd_scene load_steps=13 format=4 uid="uid://dun2q5f76thoi"]
 
 [ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
 [ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
 [ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
 [ext_resource type="PackedScene" uid="uid://cq8px4gyb1nlj" path="res://scenes/box.tscn" id="5_8ik6i"]
 [ext_resource type="PackedScene" uid="uid://bc7db47yf57oj" path="res://scenes/coin.tscn" id="6_coaa0"]
+[ext_resource type="PackedScene" uid="uid://ysor4i4v5n4d" path="res://scenes/bgm.tscn" id="7_0daha"]
 [ext_resource type="PackedScene" uid="uid://dqojtyf4in0y3" path="res://scenes/player.tscn" id="10_k38ww"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fm4b6"]
@@ -427,8 +428,17 @@ tile_set = SubResource("TileSet_hm83i")
 position = Vector2(-137, 338)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(27.399998, -67.6)
+position = Vector2(27.5, -70.5)
 scale = Vector2(0.19999999, 0.19999999)
+limit_left = -900
+limit_top = -530
+limit_right = 8735
+limit_bottom = 460
+
+[node name="BGM" parent="Player" instance=ExtResource("7_0daha")]
+position = Vector2(34.25, -84.5)
+scale = Vector2(0.25, 0.25)
+volume_db = -3.0
 
 [node name="Box" parent="." instance=ExtResource("5_8ik6i")]
 position = Vector2(553, 415)

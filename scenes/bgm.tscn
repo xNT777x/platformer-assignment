@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ysor4i4v5n4d"]
+
+[ext_resource type="AudioStream" uid="uid://64d8ol57xbdr" path="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/mp3/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.mp3" id="1_q5y64"]
+
+[node name="BGM" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_q5y64")
+autoplay = true
+parameters/looping = false
