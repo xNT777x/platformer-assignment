@@ -201,12 +201,9 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hax0n"]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 scale = Vector2(4, 4)
 script = ExtResource("1_rkhd4")
-speed = null
-gravity = null
-jump_power = null
 
 [node name="PlayerAnimation" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true

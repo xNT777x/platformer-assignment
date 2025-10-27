@@ -5,7 +5,7 @@ enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING}
 
 @onready var player_animation: AnimatedSprite2D = %PlayerAnimation
 
-var current_state:  = null
+var current_state: Node =null
 var state_factory := PlayerStateFactory.new()
 var facing_left = false
 

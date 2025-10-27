@@ -424,6 +424,9 @@ tile_set = SubResource("TileSet_hm83i")
 
 [node name="Player" parent="." instance=ExtResource("10_k38ww")]
 position = Vector2(-137, 338)
+speed = 500
+gravity = 2000
+jump_power = 1000.0
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(27.399998, -67.6)
