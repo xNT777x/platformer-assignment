@@ -13,4 +13,4 @@ func _physics_process(_delta: float) -> void:
 	elif Input.is_action_pressed("jump"):
 		state_transition_requested.emit(Player.State.JUMPING)
 	elif !player.is_on_floor():
-		state_transition_requested.emit(Player.State.FALLING)
+		state_transition_requested.emit(Player.State.IN_COYOTE)

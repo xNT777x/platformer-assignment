@@ -1,7 +1,7 @@
 extends CharacterBody2D
 class_name Player
 
-enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING}
+enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING, ATTACK, HURT, DEATH}
 
 @onready var player_animation: AnimatedSprite2D = %PlayerAnimation
 
