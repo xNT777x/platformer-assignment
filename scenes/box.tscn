@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://cq8px4gyb1nlj"]
+[gd_scene load_steps=15 format=3 uid="uid://cq8px4gyb1nlj"]
 
 [ext_resource type="Script" uid="uid://bb1gmj075hjsj" path="res://scripts/Items/box.gd" id="1_anxlp"]
 [ext_resource type="Texture2D" uid="uid://d07804ub6iy7s" path="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Box/Destroyed/1.png" id="1_igdtg"]
@@ -32,7 +32,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Destroyed",
-"speed": 10.0
+"speed": 20.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -49,7 +49,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Hit",
-"speed": 10.0
+"speed": 15.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -60,8 +60,11 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_anxlp"]
+size = Vector2(22.25, 15.25)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2ln5"]
-size = Vector2(24, 16)
+size = Vector2(24.5, 16.5)
 
 [node name="Box" type="Area2D"]
 scale = Vector2(4, 4)
@@ -69,7 +72,14 @@ script = ExtResource("1_anxlp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ks2v0")
-animation = &"Destroyed"
+animation = &"Idle"
+
+[node name="StaticBody2D" type="StaticBody2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/StaticBody2D"]
+position = Vector2(-0.375, -0.125)
+shape = SubResource("RectangleShape2D_anxlp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.25, -0.25)
 shape = SubResource("RectangleShape2D_c2ln5")

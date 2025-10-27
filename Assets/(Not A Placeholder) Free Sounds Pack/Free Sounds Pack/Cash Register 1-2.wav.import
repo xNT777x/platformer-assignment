@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7oj62s2i4ktd"
+path="res://.godot/imported/Cash Register 1-2.wav-2224c04bf20cffb3f8dbf7a2f4f8ad60.sample"
+
+[deps]
+
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Cash Register 1-2.wav"
+dest_files=["res://.godot/imported/Cash Register 1-2.wav-2224c04bf20cffb3f8dbf7a2f4f8ad60.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

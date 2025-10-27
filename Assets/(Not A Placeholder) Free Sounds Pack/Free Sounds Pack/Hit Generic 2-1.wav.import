@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ekdkyrrb2nna"
+path="res://.godot/imported/Hit Generic 2-1.wav-0856aa1d07ef9a8525f9c5e7bb33b783.sample"
+
+[deps]
+
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Hit Generic 2-1.wav"
+dest_files=["res://.godot/imported/Hit Generic 2-1.wav-0856aa1d07ef9a8525f9c5e7bb33b783.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
