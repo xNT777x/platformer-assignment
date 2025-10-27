@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csdn3gs8u4a7r"
-path="res://.godot/imported/31.png-197e45a9e4a54ebe0c58dbadad12ba5f.ctex"
+path="res://.godot/imported/31.png-4e722457dfb763eff70300f14e721980.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/31.png"
-dest_files=["res://.godot/imported/31.png-197e45a9e4a54ebe0c58dbadad12ba5f.ctex"]
+source_file="res://Assets/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/Small Text/31.png"
+dest_files=["res://.godot/imported/31.png-4e722457dfb763eff70300f14e721980.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chkraqse430oe"
-path="res://.godot/imported/Interrogation In 03.png-4a65432085f0c62b1e90500b52d619da.ctex"
+path="res://.godot/imported/Interrogation In 03.png-6558ead028bf4da3342d45035c49fbfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Interrogation/Interrogation In 03.png"
-dest_files=["res://.godot/imported/Interrogation In 03.png-4a65432085f0c62b1e90500b52d619da.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Interrogation/Interrogation In 03.png"
+dest_files=["res://.godot/imported/Interrogation In 03.png-6558ead028bf4da3342d45035c49fbfe.ctex"]
 
 [params]
 
