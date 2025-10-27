@@ -52,7 +52,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack1",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -66,7 +66,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack2",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -78,9 +78,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("10_g5jhy")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack3",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -202,13 +202,18 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_hax0n"]
 
 [node name="Player" type="CharacterBody2D"]
-scale = Vector2(5, 5)
+scale = Vector2(4, 4)
 script = ExtResource("1_rkhd4")
+speed = null
+gravity = null
+jump_power = null
 
 [node name="PlayerAnimation" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
+texture_filter = 1
+rotation = -0.0054253084
 sprite_frames = SubResource("SpriteFrames_dt7fs")
-animation = &"idle"
+animation = &"attack3"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_hax0n")

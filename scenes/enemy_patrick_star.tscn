@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://bm51g2wlaoqc0"]
+
+[ext_resource type="Script" uid="uid://cawdod0lobrbq" path="res://scripts/star/star.gd" id="1_oqrax"]
+[ext_resource type="Texture2D" uid="uid://cd2a5stso2y54" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 01.png" id="2_dl467"]
+[ext_resource type="Texture2D" uid="uid://0ve1exdf7kf6" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 02.png" id="3_g41r0"]
+[ext_resource type="Texture2D" uid="uid://di0d72r2r46hu" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 03.png" id="4_x254v"]
+[ext_resource type="Texture2D" uid="uid://bs5nvl6qkgva5" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 04.png" id="5_6u8p2"]
+[ext_resource type="Texture2D" uid="uid://blaj58tpggtd3" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 05.png" id="6_34vub"]
+[ext_resource type="Texture2D" uid="uid://bvxwb6rdwgtv6" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 06.png" id="7_4llwh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oqrax"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dl467")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g41r0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_x254v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6u8p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_34vub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4llwh")
+}],
+"loop": true,
+"name": &"moving",
+"speed": 10.0
+}]
+
+[node name="EnemyPatrickStar" type="CharacterBody2D"]
+texture_filter = 1
+script = ExtResource("1_oqrax")
+
+[node name="StarAnimation" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_oqrax")
+animation = &"moving"
+frame_progress = 0.2606588
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="."]

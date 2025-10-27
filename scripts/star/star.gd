@@ -1,20 +1,19 @@
 extends CharacterBody2D
-class_name Player
+class_name Star
 
-enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING}
+enum State {MOVING, HURT, DEATH}
 
-@onready var player_animation: AnimatedSprite2D = %PlayerAnimation
+@onready var star_animation: AnimatedSprite2D = %StarAnimation
 
-var current_state:  = null
-var state_factory := PlayerStateFactory.new()
+var current_state: StarState = null
+var state_factory := StarStateFactory.new()
 var facing_left = false
 
 @export var speed: int = 500
 @export var gravity: int = 2000
-@export var jump_power: float = 1000
 
 func _ready() -> void:
-	switch_state(State.IDLING)
+	switch_state(State.MOVING)
 
 func _physics_process(_delta: float) -> void:
 	handle_facing()
@@ -26,9 +25,9 @@ func switch_state(state: State) ->  void:
 		current_state.queue_free()
 	
 	current_state = state_factory.get_fresh_state(state)
-	current_state.setup(self, player_animation)
+	current_state.setup(self, star_animation)
 	current_state.state_transition_requested.connect(switch_state.bind())
-	current_state.name = "PlayerStateMachine: " + str(state)
+	current_state.name = "StarStateMachine: " + str(state)
 	call_deferred("add_child", current_state)
 
 func handle_facing() -> void:
