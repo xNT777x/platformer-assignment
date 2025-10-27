@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://7oj62s2i4ktd"
-path="res://.godot/imported/Cash Register 1-2.wav-2224c04bf20cffb3f8dbf7a2f4f8ad60.sample"
+path="res://.godot/imported/Cash Register 1-2.wav-f098e7a0d68cd4fa86f75fb69bac89fb.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Cash Register 1-2.wav"
-dest_files=["res://.godot/imported/Cash Register 1-2.wav-2224c04bf20cffb3f8dbf7a2f4f8ad60.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Cash Register 1-2.wav"
+dest_files=["res://.godot/imported/Cash Register 1-2.wav-f098e7a0d68cd4fa86f75fb69bac89fb.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1sa06ccs055k"
-path="res://.godot/imported/01.png-6624f02c8424efc2ebfd3853029d190e.ctex"
+path="res://.godot/imported/01.png-2e79f6afee26dd7b02e46fcbfae5d991.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png"
-dest_files=["res://.godot/imported/01.png-6624f02c8424efc2ebfd3853029d190e.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png"
+dest_files=["res://.godot/imported/01.png-2e79f6afee26dd7b02e46fcbfae5d991.ctex"]
 
 [params]
 

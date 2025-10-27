@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c4b0yqxdy1dbb"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Cosmic Star.wav-bb1a4c68dda5141eb6d71662661c6ea7.sample"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Cosmic Star.wav-afa003bef5329c50219cd55aabf8b1a1.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Cosmic Star.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Cosmic Star.wav-bb1a4c68dda5141eb6d71662661c6ea7.sample"]
+source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Cosmic Star.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Cosmic Star.wav-afa003bef5329c50219cd55aabf8b1a1.sample"]
 
 [params]
 

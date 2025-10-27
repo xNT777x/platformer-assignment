@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://crfydfhcxondi"
-path="res://.godot/imported/Water Splash 5-2.wav-a801fbf99789a0f8db93b1f775ab336c.sample"
+path="res://.godot/imported/Water Splash 5-2.wav-f31f43cb590251b5b0137e2e57053ccf.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Water Splash 5-2.wav"
-dest_files=["res://.godot/imported/Water Splash 5-2.wav-a801fbf99789a0f8db93b1f775ab336c.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Water Splash 5-2.wav"
+dest_files=["res://.godot/imported/Water Splash 5-2.wav-f31f43cb590251b5b0137e2e57053ccf.sample"]
 
 [params]
 

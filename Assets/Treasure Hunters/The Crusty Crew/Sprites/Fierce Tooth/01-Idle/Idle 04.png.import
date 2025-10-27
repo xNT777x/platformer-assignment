@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn3ql6v0wl6fg"
-path="res://.godot/imported/Idle 04.png-eb7f64b5dcfbdaa67671e873489bd195.ctex"
+path="res://.godot/imported/Idle 04.png-ef42ff1c9dfd9f0d53930cfef4fccc13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/01-Idle/Idle 04.png"
-dest_files=["res://.godot/imported/Idle 04.png-eb7f64b5dcfbdaa67671e873489bd195.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/01-Idle/Idle 04.png"
+dest_files=["res://.godot/imported/Idle 04.png-ef42ff1c9dfd9f0d53930cfef4fccc13.ctex"]
 
 [params]
 

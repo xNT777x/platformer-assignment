@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2hg1uecaig83"
-path="res://.godot/imported/Spikes.png-4d139e942db9250b68e84f74564f04c7.ctex"
+path="res://.godot/imported/Spikes.png-84997d78f557813cb36e62e0381cbfc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Spikes/Spikes.png"
-dest_files=["res://.godot/imported/Spikes.png-4d139e942db9250b68e84f74564f04c7.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Spikes/Spikes.png"
+dest_files=["res://.godot/imported/Spikes.png-84997d78f557813cb36e62e0381cbfc3.ctex"]
 
 [params]
 

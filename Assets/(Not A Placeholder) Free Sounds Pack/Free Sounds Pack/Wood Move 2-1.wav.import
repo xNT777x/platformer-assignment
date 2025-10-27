@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://560sas8da20i"
-path="res://.godot/imported/Wood Move 2-1.wav-7d6516a504591d723a1b9fb26525d440.sample"
+path="res://.godot/imported/Wood Move 2-1.wav-5b78df9a7fcca06a23390191f36f7fb8.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Wood Move 2-1.wav"
-dest_files=["res://.godot/imported/Wood Move 2-1.wav-7d6516a504591d723a1b9fb26525d440.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Wood Move 2-1.wav"
+dest_files=["res://.godot/imported/Wood Move 2-1.wav-5b78df9a7fcca06a23390191f36f7fb8.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3gfs8t7q7b8m"
-path="res://.godot/imported/04.png-1641950e276329150afd88c8a53f21ee.ctex"
+path="res://.godot/imported/04.png-7287909f9de9c06ff190bf3d8c3841fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/04.png"
-dest_files=["res://.godot/imported/04.png-1641950e276329150afd88c8a53f21ee.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/04.png"
+dest_files=["res://.godot/imported/04.png-7287909f9de9c06ff190bf3d8c3841fc.ctex"]
 
 [params]
 

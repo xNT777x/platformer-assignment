@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpgjifm0tdqss"
-path="res://.godot/imported/Dead Out 02.png-7a8beea1798deb827bccb4601af0cd8c.ctex"
+path="res://.godot/imported/Dead Out 02.png-ca5b00fae4b758d6eecbeb7d290684aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Dead/Dead Out 02.png"
-dest_files=["res://.godot/imported/Dead Out 02.png-7a8beea1798deb827bccb4601af0cd8c.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Dead/Dead Out 02.png"
+dest_files=["res://.godot/imported/Dead Out 02.png-ca5b00fae4b758d6eecbeb7d290684aa.ctex"]
 
 [params]
 
