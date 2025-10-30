@@ -1,0 +1,58 @@
+[gd_scene load_steps=11 format=3 uid="uid://dee1056r7yf3j"]
+
+[ext_resource type="Texture2D" uid="uid://dyjpepjupg7ba" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png" id="1_2jtha"]
+[ext_resource type="Script" uid="uid://chghuteaolve4" path="res://scripts/Items/red_potion.gd" id="1_tdaid"]
+[ext_resource type="Texture2D" uid="uid://brdw8oi14pvvc" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/02.png" id="2_tdaid"]
+[ext_resource type="Texture2D" uid="uid://dqg507an0i54h" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/03.png" id="3_ao14q"]
+[ext_resource type="Texture2D" uid="uid://d3gfs8t7q7b8m" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/04.png" id="4_qgjvp"]
+[ext_resource type="Texture2D" uid="uid://dy8ns21io10nn" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/05.png" id="5_ripeq"]
+[ext_resource type="Texture2D" uid="uid://d1231lefkcpyf" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/06.png" id="6_u3whc"]
+[ext_resource type="Texture2D" uid="uid://761vp6xpiap0" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/07.png" id="7_v3agu"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rr5tt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2jtha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_tdaid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ao14q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qgjvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ripeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_u3whc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v3agu")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pgfre"]
+size = Vector2(10, 13)
+
+[node name="RedPotion" type="Area2D"]
+scale = Vector2(4, 4)
+script = ExtResource("1_tdaid")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_rr5tt")
+animation = &"Idle"
+frame_progress = 0.49370134
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_pgfre")
+
+[node name="Timer" type="Timer" parent="."]

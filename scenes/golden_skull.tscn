@@ -1,0 +1,62 @@
+[gd_scene load_steps=12 format=3 uid="uid://cv4fuarnisraj"]
+
+[ext_resource type="Texture2D" uid="uid://bio4pvtukhjw6" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/01.png" id="1_yd34n"]
+[ext_resource type="Script" uid="uid://ueqifkp5q223" path="res://scripts/Items/golden_skull.gd" id="1_yglak"]
+[ext_resource type="Texture2D" uid="uid://ccsk0br18jhe8" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/02.png" id="2_yglak"]
+[ext_resource type="Texture2D" uid="uid://bx1jmhgq1h73r" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/03.png" id="3_nxf01"]
+[ext_resource type="Texture2D" uid="uid://c5ttmvua60sek" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/04.png" id="4_xqt0g"]
+[ext_resource type="Texture2D" uid="uid://cwjlkes5ha4kf" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/05.png" id="5_mnht8"]
+[ext_resource type="Texture2D" uid="uid://qbpsjk4ake08" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/06.png" id="6_x2hoi"]
+[ext_resource type="Texture2D" uid="uid://cdmy1dve1afc6" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/07.png" id="7_52nsj"]
+[ext_resource type="Texture2D" uid="uid://bhnlonl3oawsc" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/08.png" id="8_fje5x"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1y6p4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_yd34n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_yglak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nxf01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xqt0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mnht8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_x2hoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_52nsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_fje5x")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yd34n"]
+size = Vector2(15.5, 13)
+
+[node name="GoldenSkull" type="Area2D"]
+scale = Vector2(4, 4)
+script = ExtResource("1_yglak")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1y6p4")
+animation = &"Idle"
+frame_progress = 0.85583466
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.25, 5.5)
+shape = SubResource("RectangleShape2D_yd34n")
+
+[node name="Timer" type="Timer" parent="CollisionShape2D"]
