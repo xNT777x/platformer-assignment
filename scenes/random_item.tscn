@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://g168rcnce112"]
+
+[ext_resource type="Script" uid="uid://c1hk3q6qv63pe" path="res://scripts/Items/random_item.gd" id="1_g8f0o"]
+[ext_resource type="PackedScene" uid="uid://b6qivbtntqdbo" path="res://scenes/golden_skull.tscn" id="2_v7qbb"]
+[ext_resource type="PackedScene" uid="uid://ds6hsn8xxafq6" path="res://scenes/red_potion.tscn" id="3_n541a"]
+[ext_resource type="PackedScene" uid="uid://3exxuhpfw4ef" path="res://scenes/blue_potion.tscn" id="4_8b5vx"]
+
+[node name="RandomItems" type="Node2D"]
+script = ExtResource("1_g8f0o")
+
+[node name="GoldenSkull" parent="." instance=ExtResource("2_v7qbb")]
+position = Vector2(-3, -24)
+
+[node name="RedPotion" parent="." instance=ExtResource("3_n541a")]
+
+[node name="BluePotion" parent="." instance=ExtResource("4_8b5vx")]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cv4fuarnisraj"]
+[gd_scene load_steps=12 format=3 uid="uid://b6qivbtntqdbo"]
 
 [ext_resource type="Texture2D" uid="uid://bio4pvtukhjw6" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/01.png" id="1_yd34n"]
 [ext_resource type="Script" uid="uid://ueqifkp5q223" path="res://scripts/Items/golden_skull.gd" id="1_yglak"]
@@ -60,3 +60,5 @@ position = Vector2(1.25, 5.5)
 shape = SubResource("RectangleShape2D_yd34n")
 
 [node name="Timer" type="Timer" parent="CollisionShape2D"]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

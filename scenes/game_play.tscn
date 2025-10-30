@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://dun2q5f76thoi"]
+[gd_scene load_steps=15 format=4 uid="uid://dun2q5f76thoi"]
 
 [ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
 [ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://cq8px4gyb1nlj" path="res://scenes/box.tscn" id="5_8ik6i"]
 [ext_resource type="PackedScene" uid="uid://bc7db47yf57oj" path="res://scenes/coin.tscn" id="6_coaa0"]
 [ext_resource type="PackedScene" uid="uid://ysor4i4v5n4d" path="res://scenes/bgm.tscn" id="7_0daha"]
+[ext_resource type="PackedScene" uid="uid://g168rcnce112" path="res://scenes/random_item.tscn" id="7_x4ub6"]
+[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="9_fm4b6"]
 [ext_resource type="PackedScene" uid="uid://dqojtyf4in0y3" path="res://scenes/player.tscn" id="10_k38ww"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fm4b6"]
@@ -412,6 +414,22 @@ sources/2 = SubResource("TileSetAtlasSource_hm83i")
 
 [node name="GamePlay" type="Node2D"]
 
+[node name="ParallexBackGround" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="ParallexBackGround"]
+layer = 0
+visible = false
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallexBackGround/ParallaxBackground"]
+position = Vector2(-4, -1)
+motion_mirroring = Vector2(2060, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallexBackGround/ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+position = Vector2(68, 16)
+scale = Vector2(4.6, 4)
+texture = ExtResource("9_fm4b6")
+
 [node name="BackGround" type="TileMapLayer" parent="."]
 texture_filter = 1
 scale = Vector2(4, 4)
@@ -439,9 +457,13 @@ limit_bottom = 460
 position = Vector2(34.25, -84.5)
 scale = Vector2(0.25, 0.25)
 volume_db = -3.0
+parameters/looping = true
 
 [node name="Box" parent="." instance=ExtResource("5_8ik6i")]
 position = Vector2(553, 415)
+
+[node name="RandomItem" parent="." instance=ExtResource("7_x4ub6")]
+position = Vector2(548, 408)
 
 [node name="Coins" type="Node" parent="."]
 

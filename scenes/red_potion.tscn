@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dee1056r7yf3j"]
+[gd_scene load_steps=11 format=3 uid="uid://ds6hsn8xxafq6"]
 
 [ext_resource type="Texture2D" uid="uid://dyjpepjupg7ba" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png" id="1_2jtha"]
 [ext_resource type="Script" uid="uid://chghuteaolve4" path="res://scripts/Items/red_potion.gd" id="1_tdaid"]
@@ -56,3 +56,5 @@ position = Vector2(0, 1.5)
 shape = SubResource("RectangleShape2D_pgfre")
 
 [node name="Timer" type="Timer" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
