@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cgxdvgw2rcy7a"
-path="res://.godot/imported/Bag Handle 1-5.wav-97db14ea9f6d9590ef3dc53edff1320d.sample"
+path="res://.godot/imported/Bag Handle 1-5.wav-2e216bfafeae7090827fc0edc9c2ab9b.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Bag Handle 1-5.wav"
-dest_files=["res://.godot/imported/Bag Handle 1-5.wav-97db14ea9f6d9590ef3dc53edff1320d.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Bag Handle 1-5.wav"
+dest_files=["res://.godot/imported/Bag Handle 1-5.wav-2e216bfafeae7090827fc0edc9c2ab9b.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crdggtxd1jsmk"
-path="res://.godot/imported/Green Board (guide).png-bcc7e7e8720997fb0acf637be59e1ca9.ctex"
+path="res://.godot/imported/Green Board (guide).png-5ea20caa904c27ddef574cf550eb51cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/Green Board (guide).png"
-dest_files=["res://.godot/imported/Green Board (guide).png-bcc7e7e8720997fb0acf637be59e1ca9.ctex"]
+source_file="res://Assets/Treasure Hunters/Wood and Paper UI/Sprites/Green Board/Green Board (guide).png"
+dest_files=["res://.godot/imported/Green Board (guide).png-5ea20caa904c27ddef574cf550eb51cf.ctex"]
 
 [params]
 

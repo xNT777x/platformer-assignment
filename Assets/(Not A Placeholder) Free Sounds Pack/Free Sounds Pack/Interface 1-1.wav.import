@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bg5vtwj8mwubc"
-path="res://.godot/imported/Interface 1-1.wav-395a8eb93dba93b4455578c72f9bb738.sample"
+path="res://.godot/imported/Interface 1-1.wav-3129111853e76669d295dfae1919f49a.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Interface 1-1.wav"
-dest_files=["res://.godot/imported/Interface 1-1.wav-395a8eb93dba93b4455578c72f9bb738.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Interface 1-1.wav"
+dest_files=["res://.godot/imported/Interface 1-1.wav-3129111853e76669d295dfae1919f49a.sample"]
 
 [params]
 

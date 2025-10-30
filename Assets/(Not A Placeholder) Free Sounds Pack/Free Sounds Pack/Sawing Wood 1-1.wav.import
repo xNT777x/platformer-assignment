@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dubb8xm11by0t"
-path="res://.godot/imported/Sawing Wood 1-1.wav-33fa4239455aced8e5d7e90d6c84a8ff.sample"
+path="res://.godot/imported/Sawing Wood 1-1.wav-df6a1e040ecd94abd7e36917803d0726.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Sawing Wood 1-1.wav"
-dest_files=["res://.godot/imported/Sawing Wood 1-1.wav-33fa4239455aced8e5d7e90d6c84a8ff.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Sawing Wood 1-1.wav"
+dest_files=["res://.godot/imported/Sawing Wood 1-1.wav-df6a1e040ecd94abd7e36917803d0726.sample"]
 
 [params]
 

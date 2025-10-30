@@ -12,8 +12,19 @@ var facing_left = false
 @export var speed: int = 500
 @export var gravity: int = 2000
 @export var jump_power: float = 1000
+@export var max_health: int = 5 # TODO: Make health sprites scalable
+
+var current_health: int
+var hearts_list: Array[TextureRect]
 
 func _ready() -> void:
+	current_health = max_health
+	
+	var hearts_parent = $HealthBar/HBoxContainer
+	for child in hearts_parent.get_children():
+		hearts_list.append(child)
+	print(hearts_list)
+	
 	switch_state(State.IDLING)
 
 func _physics_process(_delta: float) -> void:

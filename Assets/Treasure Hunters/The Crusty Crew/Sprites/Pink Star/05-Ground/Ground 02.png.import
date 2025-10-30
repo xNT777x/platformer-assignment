@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cim4jwxc0j0pn"
-path="res://.godot/imported/Ground 02.png-fb081eeeebd833d728328ac827a772c2.ctex"
+path="res://.godot/imported/Ground 02.png-71e1c147f37312d4bde79a85408e7c37.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/05-Ground/Ground 02.png"
-dest_files=["res://.godot/imported/Ground 02.png-fb081eeeebd833d728328ac827a772c2.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/05-Ground/Ground 02.png"
+dest_files=["res://.godot/imported/Ground 02.png-71e1c147f37312d4bde79a85408e7c37.ctex"]
 
 [params]
 

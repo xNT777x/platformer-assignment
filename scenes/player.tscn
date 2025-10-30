@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://dqojtyf4in0y3"]
+[gd_scene load_steps=42 format=3 uid="uid://dqojtyf4in0y3"]
 
 [ext_resource type="Script" uid="uid://ci4k1k02f1egd" path="res://scripts/player/player.gd" id="1_rkhd4"]
 [ext_resource type="Texture2D" uid="uid://dini0wbqj7inq" path="res://Assets/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/15-Attack 1/Attack 1 01.png" id="2_hax0n"]
@@ -37,6 +37,8 @@
 [ext_resource type="Texture2D" uid="uid://cb6lavm5fq37p" path="res://Assets/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/Hit Sword 02.png" id="21_74r1k"]
 [ext_resource type="Texture2D" uid="uid://dw5bbralvpt1w" path="res://Assets/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/Hit Sword 03.png" id="22_8svfe"]
 [ext_resource type="Texture2D" uid="uid://dw1anuaqt211g" path="res://Assets/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/Hit Sword 04.png" id="23_2a3c5"]
+[ext_resource type="Texture2D" uid="uid://jkwemgh2sdsx" path="res://Assets/Hearts/PNG/basic/heart.png" id="38_j2b1d"]
+[ext_resource type="Texture2D" uid="uid://cumvgnn4pup63" path="res://Assets/Hearts/PNG/basic/border.png" id="39_cs1tg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dt7fs"]
 animations = [{
@@ -214,3 +216,72 @@ animation = &"attack3"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_hax0n")
+
+[node name="HealthBar" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HealthBar"]
+texture_filter = 1
+offset_left = 170.0
+offset_top = 137.0
+offset_right = 551.0
+offset_bottom = 177.0
+
+[node name="heart" type="TextureRect" parent="HealthBar/HBoxContainer"]
+custom_minimum_size = Vector2(73, 0)
+layout_mode = 2
+
+[node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart"]
+scale = Vector2(4, 4)
+texture = ExtResource("38_j2b1d")
+
+[node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart"]
+scale = Vector2(4, 4)
+texture = ExtResource("39_cs1tg")
+
+[node name="heart2" type="TextureRect" parent="HealthBar/HBoxContainer"]
+custom_minimum_size = Vector2(73, 0)
+layout_mode = 2
+
+[node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart2"]
+scale = Vector2(4, 4)
+texture = ExtResource("38_j2b1d")
+
+[node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart2"]
+scale = Vector2(4, 4)
+texture = ExtResource("39_cs1tg")
+
+[node name="heart3" type="TextureRect" parent="HealthBar/HBoxContainer"]
+custom_minimum_size = Vector2(73, 0)
+layout_mode = 2
+
+[node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart3"]
+scale = Vector2(4, 4)
+texture = ExtResource("38_j2b1d")
+
+[node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart3"]
+scale = Vector2(4, 4)
+texture = ExtResource("39_cs1tg")
+
+[node name="heart4" type="TextureRect" parent="HealthBar/HBoxContainer"]
+custom_minimum_size = Vector2(73, 0)
+layout_mode = 2
+
+[node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart4"]
+scale = Vector2(4, 4)
+texture = ExtResource("38_j2b1d")
+
+[node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart4"]
+scale = Vector2(4, 4)
+texture = ExtResource("39_cs1tg")
+
+[node name="heart5" type="TextureRect" parent="HealthBar/HBoxContainer"]
+custom_minimum_size = Vector2(73, 0)
+layout_mode = 2
+
+[node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart5"]
+scale = Vector2(4, 4)
+texture = ExtResource("38_j2b1d")
+
+[node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart5"]
+scale = Vector2(4, 4)
+texture = ExtResource("39_cs1tg")
