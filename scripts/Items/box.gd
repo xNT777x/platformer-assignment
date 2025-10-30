@@ -2,6 +2,7 @@ extends Area2D
 
 @onready var anim: AnimatedSprite2D = $AnimatedSprite2D
 @onready var collision: CollisionShape2D = $CollisionShape2D
+@onready var box_hit_sfx: AudioStreamPlayer2D = $BoxHitSfx
 
 var state: StringName = &"idle"
 var already_hit: bool = false
@@ -22,6 +23,7 @@ func _on_body_entered(body: Node) -> void:
 		state = &"hit"
 		if anim.sprite_frames.has_animation("Hit"):
 			anim.play("Hit")
+			box_hit_sfx.play()
 		else:
 			queue_free() # Fallback if missing animation
 
