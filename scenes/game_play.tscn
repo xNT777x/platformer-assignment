@@ -457,6 +457,7 @@ limit_bottom = 460
 position = Vector2(34.25, -84.5)
 scale = Vector2(0.25, 0.25)
 volume_db = -3.0
+bus = &"In_Game"
 parameters/looping = true
 
 [node name="Box" parent="." instance=ExtResource("5_8ik6i")]

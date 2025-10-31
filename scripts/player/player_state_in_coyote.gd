@@ -1,23 +1,36 @@
 extends PlayerState
 class_name PlayerStateInCoyote
 
-const MAX_COYOTE_FRAMES_60: int = 3
+const COYOTE_TIME := 0.08     # 80 ms
+const JUMP_BUFFER := 0.10     # 100 ms
 
-var time_start = Time.get_ticks_msec()
+var coyote_left := 0.0
+var jump_buffer_left := 0.0
 
-func _physics_process(_delta: float) -> void:
+func enter(_prev):
+	coyote_left = COYOTE_TIME
+
+func _physics_process(delta: float) -> void:
 	handle_horizontal_movement()
 	play_animation()
-	
-	var curr_time = Time.get_ticks_msec()
-	var max_coyote_time: float = MAX_COYOTE_FRAMES_60 / 60.0 * 1000
-	if curr_time - time_start >= max_coyote_time:
-		state_transition_requested.emit(Player.State.FALLING)
-	elif Input.is_action_pressed("jump"):
+
+	if Input.is_action_just_pressed("jump"):
+		jump_buffer_left = JUMP_BUFFER
+	elif jump_buffer_left > 0.0:
+		jump_buffer_left -= delta
+
+	if coyote_left > 0.0:
+		coyote_left -= delta
+
+	if (coyote_left > 0.0 or player.is_on_floor()) and jump_buffer_left > 0.0:
 		state_transition_requested.emit(Player.State.JUMPING)
-	
+		return
+
+	if coyote_left <= 0.0 and not player.is_on_floor():
+		state_transition_requested.emit(Player.State.FALLING)
+
 func play_animation() -> void:
-	if player.velocity.x == 0:
+	if abs(player.velocity.x) < 0.01:
 		animation_player.play("idle")
 	else:
 		animation_player.play("move")
