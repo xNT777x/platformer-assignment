@@ -1,12 +1,15 @@
 extends Control
 
-@onready var options: Panel = $Options
+@onready var options: Panel = $Options/Options
+# @onready var back_btn: Button = $Options/Options/back
 @onready var main_buttons: VBoxContainer = $VBoxContainer
+@onready var audio_control: HSlider = $Options/AudioControl
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	main_buttons.visible = true
 	options.visible = false
+	# audio_control.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -24,7 +27,3 @@ func _on_options_pressed() -> void:
 func _on_exit_pressed() -> void:
 	print("Exit Button pressed")
 	get_tree().quit()
-
-func _on_back_pressed() -> void:
-	options.visible = false
-	main_buttons.visible = true
