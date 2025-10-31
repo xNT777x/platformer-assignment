@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bp8hgl8hf0tr7"]
+
+[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="1_w3mhu"]
+
+[node name="Parallax2D" type="Parallax2D"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1920, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+texture_filter = 1
+scale = Vector2(4, 4)
+texture = ExtResource("1_w3mhu")
+centered = false

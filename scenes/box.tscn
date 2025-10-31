@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://cq8px4gyb1nlj"]
+[gd_scene load_steps=16 format=3 uid="uid://cq8px4gyb1nlj"]
 
 [ext_resource type="Script" uid="uid://bb1gmj075hjsj" path="res://scripts/Items/box.gd" id="1_anxlp"]
 [ext_resource type="Texture2D" uid="uid://d07804ub6iy7s" path="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Box/Destroyed/1.png" id="1_igdtg"]
@@ -11,6 +11,10 @@
 [ext_resource type="Texture2D" uid="uid://b5ngrbcirgvbm" path="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/3.png" id="8_oukka"]
 [ext_resource type="Texture2D" uid="uid://cjf58dfxgnhjv" path="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/4.png" id="9_lmnjw"]
 [ext_resource type="Texture2D" uid="uid://dxxiysiwhpfs7" path="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Box/Idle/1.png" id="10_gr135"]
+[ext_resource type="AudioStream" uid="uid://265mxu4jl1c7" path="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Wood 14-8.wav" id="12_yches"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c2ln5"]
+size = Vector2(24.5, 16.5)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ks2v0"]
 animations = [{
@@ -58,27 +62,23 @@ animations = [{
 "loop": true,
 "name": &"Idle",
 "speed": 5.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"new_animation",
-"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_anxlp"]
 size = Vector2(22.25, 15.25)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_c2ln5"]
-size = Vector2(24.5, 16.5)
-
 [node name="Box" type="Area2D"]
 scale = Vector2(4, 4)
 script = ExtResource("1_anxlp")
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.25, -0.25)
+shape = SubResource("RectangleShape2D_c2ln5")
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ks2v0")
-animation = &"new_animation"
+animation = &"Idle"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="AnimatedSprite2D"]
 
@@ -86,6 +86,7 @@ animation = &"new_animation"
 position = Vector2(-0.375, -0.125)
 shape = SubResource("RectangleShape2D_anxlp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.25, -0.25)
-shape = SubResource("RectangleShape2D_c2ln5")
+[node name="BoxHitSfx" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_yches")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animation_finished"]
