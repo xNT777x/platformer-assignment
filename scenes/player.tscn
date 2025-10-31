@@ -52,7 +52,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("4_j2b1d")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack1",
 "speed": 8.0
 }, {
@@ -66,7 +66,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("7_giy8y")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack2",
 "speed": 8.0
 }, {
@@ -97,7 +97,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("14_u2ulf")
 }],
-"loop": true,
+"loop": false,
 "name": &"death_anim",
 "speed": 5.0
 }, {
@@ -114,7 +114,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("18_lxlsd")
 }],
-"loop": true,
+"loop": false,
 "name": &"death_hit",
 "speed": 5.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("19_ha2mi")
 }],
-"loop": true,
+"loop": false,
 "name": &"fall",
 "speed": 5.0
 }, {
@@ -139,9 +139,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("23_2a3c5")
 }],
-"loop": true,
+"loop": false,
 "name": &"hurt",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -173,9 +173,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("9_a38lo")
 }],
-"loop": true,
+"loop": false,
 "name": &"jump",
-"speed": 5.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -198,10 +198,12 @@ animations = [{
 }],
 "loop": true,
 "name": &"move",
-"speed": 5.0
+"speed": 9.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_hax0n"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_j2b1d"]
+radius = 6.0
+height = 19.5
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
 scale = Vector2(4, 4)
@@ -212,10 +214,11 @@ unique_name_in_owner = true
 texture_filter = 1
 rotation = -0.0054253084
 sprite_frames = SubResource("SpriteFrames_dt7fs")
-animation = &"attack3"
+animation = &"move"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_hax0n")
+[node name="Hurtbox" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 2)
+shape = SubResource("CapsuleShape2D_j2b1d")
 
 [node name="HealthBar" type="CanvasLayer" parent="."]
 

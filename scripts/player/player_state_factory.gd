@@ -9,6 +9,8 @@ func _init() -> void:
 		Player.State.FALLING: PlayerStateFalling,
 		Player.State.IN_COYOTE: PlayerStateInCoyote,
 		Player.State.IDLING: PlayerStateIdling,
+		Player.State.HURT: PlayerStateHurt,
+		Player.State.DEATH: PlayerStateDeath,
 	}
 
 func get_fresh_state(state: Player.State) -> PlayerState:

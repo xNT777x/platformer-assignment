@@ -17,6 +17,8 @@ var facing_left = false
 var current_health: int
 var hearts_list: Array[TextureRect]
 
+const GRAVITY_MULT: float = 1.5 # Fast falling
+
 func _ready() -> void:
 	current_health = max_health
 	
@@ -25,9 +27,13 @@ func _ready() -> void:
 		hearts_list.append(child)
 	print(hearts_list)
 	
+	connect("body_entered", Callable(self, "_on_hurtbox_entered"))
+	
 	switch_state(State.IDLING)
 
 func _physics_process(_delta: float) -> void:
+	_debug()
+	
 	handle_facing()
 	flip_sprite()
 	move_and_slide()
@@ -50,3 +56,15 @@ func handle_facing() -> void:
 
 func flip_sprite() -> void:
 	player_animation.flip_h = facing_left
+	
+func _on_hurtbox_entered(body: Node) -> void:
+	if body.is_in_group("Enemy"):
+		if current_health > 0:
+			switch_state(State.HURT)
+		
+func fall(delta: float) -> void:
+	velocity.y += gravity * GRAVITY_MULT * delta
+
+func _debug() -> void:
+	if Input.is_action_just_pressed("debug_hurt_player"):
+		switch_state(State.HURT)
