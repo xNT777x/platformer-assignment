@@ -12,13 +12,38 @@ var facing_left = false
 @export var speed: int = 500
 @export var gravity: int = 2000
 @export var jump_power: float = 1000
+@export var max_health: int 
+
+var current_health: int
+var hearts_list: Array[TextureRect]
+
+const GRAVITY_MULT: float = 1.5 # Fast falling
 
 func _ready() -> void:
+	# Add hearts to list. Initially make them all invisible
+	var hearts_parent = $HealthBar/HBoxContainer
+	for child in hearts_parent.get_children():
+		hearts_list.append(child)
+		child.visible = false
+	_apply_difficulty(GameSettings.difficulty)                 
+	GameSettings.difficulty_changed.connect(_apply_difficulty) 
+
+	# Make hearts visible according to max health
+	"""
+	for i in range(max_health):
+		hearts_list[i].visible = true
+	"""
+	
+	connect("body_entered", Callable(self, "_on_hurtbox_entered"))
+	
 	switch_state(State.IDLING)
 
 func _physics_process(_delta: float) -> void:
+	_debug()
+	#process_current_health()
+	
 	handle_facing()
-	flip_sprite()
+	flip_sprite(facing_left)
 	move_and_slide()
 
 func switch_state(state: State) ->  void:
@@ -37,5 +62,35 @@ func handle_facing() -> void:
 	elif velocity.x > 0:
 		facing_left = false
 
-func flip_sprite() -> void:
-	player_animation.flip_h = facing_left
+func flip_sprite(flag: bool) -> void:
+	player_animation.flip_h = flag
+	
+func _on_hurtbox_entered(body: Node) -> void:
+	if body.is_in_group("Enemy"):
+		if current_health > 0:
+			switch_state(State.HURT)
+		
+func fall(delta: float) -> void:
+	velocity.y += gravity * GRAVITY_MULT * delta
+
+func _debug() -> void:
+	if Input.is_action_just_pressed("debug_hurt_player"):
+		switch_state(State.HURT)
+		
+# Health based on Level
+func _apply_difficulty(d:int) -> void:
+	match d:
+		GameSettings.Difficulty.EASY:   max_health = 5
+		GameSettings.Difficulty.MEDIUM: max_health = 3
+		GameSettings.Difficulty.HARD:   max_health = 1
+	apply_health_ui()
+	
+func apply_health_ui() -> void:
+	for i in hearts_list.size():
+		hearts_list[i].visible = i < max_health
+	current_health = min(current_health, max_health)
+	
+func process_current_health() -> void:
+	pass
+	
+	

@@ -1,7 +1,7 @@
 extends PlayerState
 class_name PlayerStateInCoyote
 
-const MAX_COYOTE_FRAMES_60: int = 3
+const MAX_COYOTE_FRAMES_60: int = 5
 
 var time_start = Time.get_ticks_msec()
 
