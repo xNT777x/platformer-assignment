@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dxyyoemocwevu"
-path="res://.godot/imported/Blacksmithing 1-1.wav-b6ece44b962472de08a4a3dfd3ab2238.sample"
+path="res://.godot/imported/Blacksmithing 1-1.wav-ddc7b359d42fa8c7d9590aaedc6ea817.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Blacksmithing 1-1.wav"
-dest_files=["res://.godot/imported/Blacksmithing 1-1.wav-b6ece44b962472de08a4a3dfd3ab2238.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Blacksmithing 1-1.wav"
+dest_files=["res://.godot/imported/Blacksmithing 1-1.wav-ddc7b359d42fa8c7d9590aaedc6ea817.sample"]
 
 [params]
 

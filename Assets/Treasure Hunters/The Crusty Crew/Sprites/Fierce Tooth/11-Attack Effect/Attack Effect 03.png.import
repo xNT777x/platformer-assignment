@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdae60ysyab7"
-path="res://.godot/imported/Attack Effect 03.png-6e241c808a3fe9034fc25e79916f8941.ctex"
+path="res://.godot/imported/Attack Effect 03.png-dd29d30fb341ece26f489afe14b5bc5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 03.png"
-dest_files=["res://.godot/imported/Attack Effect 03.png-6e241c808a3fe9034fc25e79916f8941.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 03.png"
+dest_files=["res://.godot/imported/Attack Effect 03.png-dd29d30fb341ece26f489afe14b5bc5b.ctex"]
 
 [params]
 

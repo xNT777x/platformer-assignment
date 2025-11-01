@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cheue0wjba7lw"
-path="res://.godot/imported/Wood Chop 1-4.wav-395cda626b55f04e6e47d61b481085fe.sample"
+path="res://.godot/imported/Wood Chop 1-4.wav-f719e5b7377ae930c3e9fe83c7d8ad1d.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Wood Chop 1-4.wav"
-dest_files=["res://.godot/imported/Wood Chop 1-4.wav-395cda626b55f04e6e47d61b481085fe.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Wood Chop 1-4.wav"
+dest_files=["res://.godot/imported/Wood Chop 1-4.wav-f719e5b7377ae930c3e9fe83c7d8ad1d.sample"]
 
 [params]
 

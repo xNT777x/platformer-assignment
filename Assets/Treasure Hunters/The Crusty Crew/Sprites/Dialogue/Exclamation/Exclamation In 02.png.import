@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7kdqch5bouep"
-path="res://.godot/imported/Exclamation In 02.png-36dc3085901c967015b6c306cf54e6ba.ctex"
+path="res://.godot/imported/Exclamation In 02.png-66c8a1ae91cacd836bb19b96b445ec88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Exclamation/Exclamation In 02.png"
-dest_files=["res://.godot/imported/Exclamation In 02.png-36dc3085901c967015b6c306cf54e6ba.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Exclamation/Exclamation In 02.png"
+dest_files=["res://.godot/imported/Exclamation In 02.png-66c8a1ae91cacd836bb19b96b445ec88.ctex"]
 
 [params]
 
