@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Platformer Assignment"
-run/main_scene="uid://dun2q5f76thoi"
+run/main_scene="uid://nevxwkxo6fel"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameSettings="*res://scripts/Game_Settings.gd"
 
 [display]
 

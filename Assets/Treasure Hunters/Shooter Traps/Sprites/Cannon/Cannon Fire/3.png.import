@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr0cpyeyanxni"
-path="res://.godot/imported/3.png-e56c1c0098491bade32a3aefe2983506.ctex"
+path="res://.godot/imported/3.png-d2fb0785585dfa23db56b5765b8c0044.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Fire/3.png"
-dest_files=["res://.godot/imported/3.png-e56c1c0098491bade32a3aefe2983506.ctex"]
+source_file="res://Assets/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Fire/3.png"
+dest_files=["res://.godot/imported/3.png-d2fb0785585dfa23db56b5765b8c0044.ctex"]
 
 [params]
 

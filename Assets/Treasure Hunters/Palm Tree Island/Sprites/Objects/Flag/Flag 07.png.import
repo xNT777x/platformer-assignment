@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beivem18gcom"
-path="res://.godot/imported/Flag 07.png-cbb01f0d3e4d435f1f7a70c2d658ffb4.ctex"
+path="res://.godot/imported/Flag 07.png-e0d077e43ffeb1ee363f2e49b7f006c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 07.png"
-dest_files=["res://.godot/imported/Flag 07.png-cbb01f0d3e4d435f1f7a70c2d658ffb4.ctex"]
+source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 07.png"
+dest_files=["res://.godot/imported/Flag 07.png-e0d077e43ffeb1ee363f2e49b7f006c4.ctex"]
 
 [params]
 

@@ -440,11 +440,14 @@ limit_left = -900
 limit_top = -530
 limit_right = 8735
 limit_bottom = 460
+position_smoothing_speed = 1.0
+rotation_smoothing_speed = 1.0
 
 [node name="BGM" parent="Player" instance=ExtResource("7_0daha")]
 position = Vector2(34.25, -84.5)
 scale = Vector2(0.25, 0.25)
 volume_db = -3.0
+bus = &"In_Game"
 parameters/looping = true
 
 [node name="Box" parent="." instance=ExtResource("5_8ik6i")]

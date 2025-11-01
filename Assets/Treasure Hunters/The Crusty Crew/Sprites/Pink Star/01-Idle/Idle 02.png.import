@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s7fhs2rfr43r"
-path="res://.godot/imported/Idle 02.png-7501eff19f4893dca29961424946d894.ctex"
+path="res://.godot/imported/Idle 02.png-6727580e8ad28ad9ec3f0adff2c43427.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 02.png"
-dest_files=["res://.godot/imported/Idle 02.png-7501eff19f4893dca29961424946d894.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 02.png"
+dest_files=["res://.godot/imported/Idle 02.png-6727580e8ad28ad9ec3f0adff2c43427.ctex"]
 
 [params]
 
