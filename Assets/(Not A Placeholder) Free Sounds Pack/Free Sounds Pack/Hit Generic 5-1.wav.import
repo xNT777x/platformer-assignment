@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cnjy2bh8hadap"
-path="res://.godot/imported/Hit Generic 5-1.wav-443e4472251c7fc3ab77d95595243b21.sample"
+path="res://.godot/imported/Hit Generic 5-1.wav-d9b39f634c12427d33a31e29fcde4e76.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Hit Generic 5-1.wav"
-dest_files=["res://.godot/imported/Hit Generic 5-1.wav-443e4472251c7fc3ab77d95595243b21.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Hit Generic 5-1.wav"
+dest_files=["res://.godot/imported/Hit Generic 5-1.wav-d9b39f634c12427d33a31e29fcde4e76.sample"]
 
 [params]
 

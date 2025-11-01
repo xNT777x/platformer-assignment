@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dksiv2j5e6sqc"
-path="res://.godot/imported/Run 05.png-e4891669d091072fe8d4a3b49fcc851d.ctex"
+path="res://.godot/imported/Run 05.png-05ecdb32714a97751d9e2c4ddd05fa49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 05.png"
-dest_files=["res://.godot/imported/Run 05.png-e4891669d091072fe8d4a3b49fcc851d.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Crabby/02-Run/Run 05.png"
+dest_files=["res://.godot/imported/Run 05.png-05ecdb32714a97751d9e2c4ddd05fa49.ctex"]
 
 [params]
 

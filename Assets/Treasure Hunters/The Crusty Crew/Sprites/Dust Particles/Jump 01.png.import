@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4xy4owvmw4x7"
-path="res://.godot/imported/Jump 01.png-3fe41a869b4b7a37cde48edf07091876.ctex"
+path="res://.godot/imported/Jump 01.png-57bf446d0b3410ccf0aaa9255261e211.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Dust Particles/Jump 01.png"
-dest_files=["res://.godot/imported/Jump 01.png-3fe41a869b4b7a37cde48edf07091876.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Dust Particles/Jump 01.png"
+dest_files=["res://.godot/imported/Jump 01.png-57bf446d0b3410ccf0aaa9255261e211.ctex"]
 
 [params]
 

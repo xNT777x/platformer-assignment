@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b08m5e2t7hwnf"
-path="res://.godot/imported/Coins 2-1 (mp3cut.net).wav-d61ec999d96416bf91fe3aa9761dbe42.sample"
+path="res://.godot/imported/Coins 2-1 (mp3cut.net).wav-146922688bc2e5eec7cfce7374c5cbb9.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Coins 2-1 (mp3cut.net).wav"
-dest_files=["res://.godot/imported/Coins 2-1 (mp3cut.net).wav-d61ec999d96416bf91fe3aa9761dbe42.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Coins 2-1 (mp3cut.net).wav"
+dest_files=["res://.godot/imported/Coins 2-1 (mp3cut.net).wav-146922688bc2e5eec7cfce7374c5cbb9.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://csb6uuo5cn7c6"
-path="res://.godot/imported/Stab 4-1.wav-7dc55605d6d945edfb659f1e83c28106.sample"
+path="res://.godot/imported/Stab 4-1.wav-2ce29d13397e68342ff1864165e6e0ae.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Stab 4-1.wav"
-dest_files=["res://.godot/imported/Stab 4-1.wav-7dc55605d6d945edfb659f1e83c28106.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Stab 4-1.wav"
+dest_files=["res://.godot/imported/Stab 4-1.wav-2ce29d13397e68342ff1864165e6e0ae.sample"]
 
 [params]
 

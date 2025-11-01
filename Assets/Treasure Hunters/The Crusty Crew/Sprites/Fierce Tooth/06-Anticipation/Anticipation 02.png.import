@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://i03o3fsgr61p"
-path="res://.godot/imported/Anticipation 02.png-93e7eeb3ab9bf33a7d36b80ee52c9637.ctex"
+path="res://.godot/imported/Anticipation 02.png-d4859d3a1a2e30af9161fede5ca5ae8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 02.png"
-dest_files=["res://.godot/imported/Anticipation 02.png-93e7eeb3ab9bf33a7d36b80ee52c9637.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 02.png"
+dest_files=["res://.godot/imported/Anticipation 02.png-d4859d3a1a2e30af9161fede5ca5ae8a.ctex"]
 
 [params]
 

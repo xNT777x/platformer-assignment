@@ -11,6 +11,7 @@ func _init() -> void:
 		Player.State.IDLING: PlayerStateIdling,
 		Player.State.HURT: PlayerStateHurt,
 		Player.State.DEATH: PlayerStateDeath,
+		Player.State.ATTACK: PlayerStateAttack,
 	}
 
 func get_fresh_state(state: Player.State) -> PlayerState:

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dm1n2gxxs6krm"
-path="res://.godot/imported/Nail Wood 1-1.wav-6a5b3ef7f59d3fe277c9757179df805d.sample"
+path="res://.godot/imported/Nail Wood 1-1.wav-1ffa6c709c36f258d20f0d8439a0a076.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Nail Wood 1-1.wav"
-dest_files=["res://.godot/imported/Nail Wood 1-1.wav-6a5b3ef7f59d3fe277c9757179df805d.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Nail Wood 1-1.wav"
+dest_files=["res://.godot/imported/Nail Wood 1-1.wav-1ffa6c709c36f258d20f0d8439a0a076.sample"]
 
 [params]
 
