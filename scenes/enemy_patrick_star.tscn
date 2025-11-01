@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bm51g2wlaoqc0"]
+[gd_scene load_steps=10 format=3 uid="uid://bm51g2wlaoqc0"]
 
 [ext_resource type="Script" uid="uid://cawdod0lobrbq" path="res://scripts/star/star.gd" id="1_oqrax"]
 [ext_resource type="Texture2D" uid="uid://cd2a5stso2y54" path="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 01.png" id="2_dl467"]
@@ -44,6 +44,8 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_dl467"]
+
 [node name="EnemyPatrickStar" type="CharacterBody2D"]
 texture_filter = 1
 script = ExtResource("1_oqrax")
@@ -56,5 +58,6 @@ animation = &"moving"
 frame_progress = 0.2606588
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_dl467")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
