@@ -493,7 +493,8 @@ position = Vector2(1567, 219)
 [node name="ParallexBackGround" type="Node2D" parent="."]
 
 [node name="Parallax2D" type="Parallax2D" parent="ParallexBackGround"]
-scroll_scale = Vector2(0.6, 1)
+z_index = -1
+scroll_scale = Vector2(0.9, 1)
 repeat_size = Vector2(4120, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallexBackGround/Parallax2D"]
