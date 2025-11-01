@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://eqtla5dpxmug"
-path="res://.godot/imported/NIGHTMARE.otf-80edaa0d61924f6f09e545a8e3fbd9d9.fontdata"
+path="res://.godot/imported/NIGHTMARE.otf-a4affa58884b350df67962247e9577d9.fontdata"
 
 [deps]
 
-source_file="res://Assets/Font/nightmare_10/NIGHTMARE.otf"
-dest_files=["res://.godot/imported/NIGHTMARE.otf-80edaa0d61924f6f09e545a8e3fbd9d9.fontdata"]
+source_file="res://assets/Font/nightmare_10/NIGHTMARE.otf"
+dest_files=["res://.godot/imported/NIGHTMARE.otf-a4affa58884b350df67962247e9577d9.fontdata"]
 
 [params]
 

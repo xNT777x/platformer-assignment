@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyltn03dwyxo"
-path="res://.godot/imported/02.png-5c057bb9e72b8543983e33c4e0c9670f.ctex"
+path="res://.godot/imported/02.png-72c26334ab8a1d82b9ecd59c6fa9c351.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/02.png"
-dest_files=["res://.godot/imported/02.png-5c057bb9e72b8543983e33c4e0c9670f.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/02.png"
+dest_files=["res://.godot/imported/02.png-72c26334ab8a1d82b9ecd59c6fa9c351.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn8dibf10x7pe"
-path="res://.godot/imported/BG Image.png-aaffbd82d2aea3eaeaa6237291ff71ec.ctex"
+path="res://.godot/imported/BG Image.png-bad4af0e8daa05309d67df222feb1802.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/BG Image.png"
-dest_files=["res://.godot/imported/BG Image.png-aaffbd82d2aea3eaeaa6237291ff71ec.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/BG Image.png"
+dest_files=["res://.godot/imported/BG Image.png-bad4af0e8daa05309d67df222feb1802.ctex"]
 
 [params]
 

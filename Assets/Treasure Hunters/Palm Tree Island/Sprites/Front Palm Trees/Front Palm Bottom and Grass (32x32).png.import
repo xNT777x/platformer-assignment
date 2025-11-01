@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c77w01knrdcik"
-path="res://.godot/imported/Front Palm Bottom and Grass (32x32).png-3f99692de3ef087a90c4e79839205578.ctex"
+path="res://.godot/imported/Front Palm Bottom and Grass (32x32).png-9f3fa32175e879bc2561174ed0766ada.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Front Palm Trees/Front Palm Bottom and Grass (32x32).png"
-dest_files=["res://.godot/imported/Front Palm Bottom and Grass (32x32).png-3f99692de3ef087a90c4e79839205578.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Front Palm Trees/Front Palm Bottom and Grass (32x32).png"
+dest_files=["res://.godot/imported/Front Palm Bottom and Grass (32x32).png-9f3fa32175e879bc2561174ed0766ada.ctex"]
 
 [params]
 

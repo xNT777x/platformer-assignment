@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://7g0l271ybl8e"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Underwater City.wav-2993b4d9352763265f2eda24f0bfa6b7.sample"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Underwater City.wav-5c9823d26332516bd49a0d4ba6e65da8.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Underwater City.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Underwater City.wav-2993b4d9352763265f2eda24f0bfa6b7.sample"]
+source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Underwater City.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Underwater City.wav-5c9823d26332516bd49a0d4ba6e65da8.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ck80v53iyc8ro"
-path="res://.godot/imported/Magical Interface 5-1.wav-bb4e4b12f0d44da065f855a84b5bd411.sample"
+path="res://.godot/imported/Magical Interface 5-1.wav-769b016ca1fe724962d288170f2857a3.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Magical Interface 5-1.wav"
-dest_files=["res://.godot/imported/Magical Interface 5-1.wav-bb4e4b12f0d44da065f855a84b5bd411.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Magical Interface 5-1.wav"
+dest_files=["res://.godot/imported/Magical Interface 5-1.wav-769b016ca1fe724962d288170f2857a3.sample"]
 
 [params]
 

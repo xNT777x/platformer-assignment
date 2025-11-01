@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmon5b8njqq7v"
-path="res://.godot/imported/Back Palm Tree Left 04.png-9ed2d313a679bac7880e2b9fbe6b2db5.ctex"
+path="res://.godot/imported/Back Palm Tree Left 04.png-f1553844dda6db58acf3cfd01bbe9f83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 04.png"
-dest_files=["res://.godot/imported/Back Palm Tree Left 04.png-9ed2d313a679bac7880e2b9fbe6b2db5.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 04.png"
+dest_files=["res://.godot/imported/Back Palm Tree Left 04.png-f1553844dda6db58acf3cfd01bbe9f83.ctex"]
 
 [params]
 

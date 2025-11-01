@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do1bk1wdhbj54"
-path="res://.godot/imported/Dead In 03.png-436f5591feb7a4de857b5851efbe347a.ctex"
+path="res://.godot/imported/Dead In 03.png-3441b2ccca6b23007f8fe94ab5da9be6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Dead/Dead In 03.png"
-dest_files=["res://.godot/imported/Dead In 03.png-436f5591feb7a4de857b5851efbe347a.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Dialogue/Dead/Dead In 03.png"
+dest_files=["res://.godot/imported/Dead In 03.png-3441b2ccca6b23007f8fe94ab5da9be6.ctex"]
 
 [params]
 

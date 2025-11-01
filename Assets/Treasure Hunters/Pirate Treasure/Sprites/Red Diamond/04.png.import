@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c40sn5p6eknwf"
-path="res://.godot/imported/04.png-261b2faf568cc9054d462a61b25d0257.ctex"
+path="res://.godot/imported/04.png-3423b03fe03eccf2ba88824fbcd37f65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/04.png"
-dest_files=["res://.godot/imported/04.png-261b2faf568cc9054d462a61b25d0257.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/04.png"
+dest_files=["res://.godot/imported/04.png-3423b03fe03eccf2ba88824fbcd37f65.ctex"]
 
 [params]
 

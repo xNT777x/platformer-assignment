@@ -1,15 +1,15 @@
 [gd_scene load_steps=16 format=4 uid="uid://dun2q5f76thoi"]
 
-[ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
-[ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
-[ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
+[ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
+[ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
+[ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
 [ext_resource type="PackedScene" uid="uid://cq8px4gyb1nlj" path="res://scenes/box.tscn" id="5_8ik6i"]
 [ext_resource type="PackedScene" uid="uid://bc7db47yf57oj" path="res://scenes/coin.tscn" id="6_coaa0"]
 [ext_resource type="PackedScene" uid="uid://ysor4i4v5n4d" path="res://scenes/bgm.tscn" id="7_0daha"]
 [ext_resource type="PackedScene" uid="uid://g168rcnce112" path="res://scenes/random_item.tscn" id="7_x4ub6"]
-[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="9_fm4b6"]
+[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="9_fm4b6"]
 [ext_resource type="PackedScene" uid="uid://dqojtyf4in0y3" path="res://scenes/player.tscn" id="10_k38ww"]
-[ext_resource type="Texture2D" uid="uid://q66v2tty602a" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Water Reflect Big 01.png" id="10_r1jqb"]
+[ext_resource type="Texture2D" uid="uid://q66v2tty602a" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Water Reflect Big 01.png" id="10_r1jqb"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fm4b6"]
 

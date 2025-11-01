@@ -4,6 +4,7 @@ class_name Player
 enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING, ATTACK, HURT, DEATH}
 
 @onready var player_animation: AnimatedSprite2D = %PlayerAnimation
+@onready var sword_hitbox = $PlayerAnimation/SwordHitbox/hitbox
 
 var current_state: Node =null
 var state_factory := PlayerStateFactory.new()
@@ -34,16 +35,21 @@ func _ready() -> void:
 		hearts_list[i].visible = true
 	"""
 	
+	current_health = max_health
+	sword_hitbox.disabled = true
+	
+	
 	connect("body_entered", Callable(self, "_on_hurtbox_entered"))
 	
 	switch_state(State.IDLING)
 
 func _physics_process(_delta: float) -> void:
 	_debug()
-	#process_current_health()
+	_process_current_health()
 	
 	handle_facing()
-	flip_sprite(facing_left)
+	@warning_ignore("standalone_ternary")
+	flip_sprite(facing_left) if current_state not in [State.HURT, State.DEATH] else flip_sprite(!facing_left)
 	move_and_slide()
 
 func switch_state(state: State) ->  void:
@@ -63,7 +69,8 @@ func handle_facing() -> void:
 		facing_left = false
 
 func flip_sprite(flag: bool) -> void:
-	player_animation.flip_h = flag
+	player_animation.scale.x = player_animation.scale.y * -1 if flag else player_animation.scale.y * 1
+	
 	
 func _on_hurtbox_entered(body: Node) -> void:
 	if body.is_in_group("Enemy"):
@@ -76,21 +83,27 @@ func fall(delta: float) -> void:
 func _debug() -> void:
 	if Input.is_action_just_pressed("debug_hurt_player"):
 		switch_state(State.HURT)
-		
+	
 # Health based on Level
 func _apply_difficulty(d:int) -> void:
 	match d:
 		GameSettings.Difficulty.EASY:   max_health = 5
 		GameSettings.Difficulty.MEDIUM: max_health = 3
 		GameSettings.Difficulty.HARD:   max_health = 1
-	apply_health_ui()
+	_apply_health_ui()
 	
-func apply_health_ui() -> void:
+func _apply_health_ui() -> void:
 	for i in hearts_list.size():
 		hearts_list[i].visible = i < max_health
+		
 	current_health = min(current_health, max_health)
 	
-func process_current_health() -> void:
-	pass
+func _process_current_health() -> void:
+	for i in range(max_health):
+		hearts_list[i].get_child(2).visible = false
 	
-	
+	for i in range(current_health):
+		hearts_list[i].get_child(2).visible = true
+
+func attack():
+	switch_state(State.ATTACK)
