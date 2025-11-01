@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c8x5134gp85fw"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Junction Jazz.wav-a837706611c0dcd9655b1cd17c12ffc5.sample"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Junction Jazz.wav-fe4f3fffeae1bd743d5d8a4e2e582c14.sample"
 
 [deps]
 
-source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Junction Jazz.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Junction Jazz.wav-a837706611c0dcd9655b1cd17c12ffc5.sample"]
+source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Junction Jazz.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Junction Jazz.wav-fe4f3fffeae1bd743d5d8a4e2e582c14.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tmnqciu2wp6q"
-path="res://.godot/imported/1.png-21abe50b6c0b62508c73da9e6e72b834.ctex"
+path="res://.godot/imported/1.png-81ed052eebd69cb350ef92129bc7d43d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Effect/1.png"
-dest_files=["res://.godot/imported/1.png-21abe50b6c0b62508c73da9e6e72b834.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Effect/1.png"
+dest_files=["res://.godot/imported/1.png-81ed052eebd69cb350ef92129bc7d43d.ctex"]
 
 [params]
 

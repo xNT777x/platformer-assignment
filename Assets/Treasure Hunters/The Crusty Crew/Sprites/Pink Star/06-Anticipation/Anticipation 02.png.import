@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h57wu2py8e5"
-path="res://.godot/imported/Anticipation 02.png-767f519cbfa52893a1455dda85750fa5.ctex"
+path="res://.godot/imported/Anticipation 02.png-da903b6ff6ae1c54564b9421778a5c17.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 02.png"
-dest_files=["res://.godot/imported/Anticipation 02.png-767f519cbfa52893a1455dda85750fa5.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 02.png"
+dest_files=["res://.godot/imported/Anticipation 02.png-da903b6ff6ae1c54564b9421778a5c17.ctex"]
 
 [params]
 

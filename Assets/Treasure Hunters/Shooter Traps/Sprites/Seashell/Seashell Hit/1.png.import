@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccx7x13q8fj7q"
-path="res://.godot/imported/1.png-3edba0ac742757d0225c7b9bc6acbfd8.ctex"
+path="res://.godot/imported/1.png-9dfd94a1f7af1d1428dd0615d0823461.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Hit/1.png"
-dest_files=["res://.godot/imported/1.png-3edba0ac742757d0225c7b9bc6acbfd8.ctex"]
+source_file="res://Assets/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Hit/1.png"
+dest_files=["res://.godot/imported/1.png-9dfd94a1f7af1d1428dd0615d0823461.ctex"]
 
 [params]
 

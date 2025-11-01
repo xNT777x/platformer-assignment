@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc1eq66hb8ek5"
-path="res://.godot/imported/Dead Hit 04.png-591df2dfe0cb037c5f7ce34e0e73e5a4.ctex"
+path="res://.godot/imported/Dead Hit 04.png-92875b5c7c4d81f90cac2684162311ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Crabby/09-Dead Hit/Dead Hit 04.png"
-dest_files=["res://.godot/imported/Dead Hit 04.png-591df2dfe0cb037c5f7ce34e0e73e5a4.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Crabby/09-Dead Hit/Dead Hit 04.png"
+dest_files=["res://.godot/imported/Dead Hit 04.png-92875b5c7c4d81f90cac2684162311ed.ctex"]
 
 [params]
 

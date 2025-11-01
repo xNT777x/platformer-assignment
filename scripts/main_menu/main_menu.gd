@@ -1,6 +1,6 @@
 extends Control
 
-@onready var options: Panel = $Options/Options
+@onready var options: Panel = $Options/opts
 # @onready var back_btn: Button = $Options/Options/back
 @onready var main_buttons: VBoxContainer = $VBoxContainer
 @onready var audio_control: HSlider = $Options/AudioControl
@@ -10,10 +10,6 @@ func _ready() -> void:
 	main_buttons.visible = true
 	options.visible = false
 	# audio_control.
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
 
 func _on_start_pressed() -> void:
 	print("Start Button pressed")
