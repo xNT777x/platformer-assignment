@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh1xu23vemig3"
-path="res://.godot/imported/Dead Ground 02.png-4e5b30e4455d31de19604b76eb7aea39.ctex"
+path="res://.godot/imported/Dead Ground 02.png-3dabbf6c469786553cd6454ea18c9c22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/10-Dead Ground/Dead Ground 02.png"
-dest_files=["res://.godot/imported/Dead Ground 02.png-4e5b30e4455d31de19604b76eb7aea39.ctex"]
+source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/10-Dead Ground/Dead Ground 02.png"
+dest_files=["res://.godot/imported/Dead Ground 02.png-3dabbf6c469786553cd6454ea18c9c22.ctex"]
 
 [params]
 

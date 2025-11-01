@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjb0cwrudfh2"
-path="res://.godot/imported/4.png-ed20af69aea545cc6a820c2a0e124a4c.ctex"
+path="res://.godot/imported/4.png-ee85e1f2ceb9bc13e746a791cfd0b0b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 2/4.png"
-dest_files=["res://.godot/imported/4.png-ed20af69aea545cc6a820c2a0e124a4c.ctex"]
+source_file="res://assets/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 2/4.png"
+dest_files=["res://.godot/imported/4.png-ee85e1f2ceb9bc13e746a791cfd0b0b1.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://lohvdcg5obuu"
-path="res://.godot/imported/Whoosh 4-1.wav-23394f484e564cd3ce108c411f436c99.sample"
+path="res://.godot/imported/Whoosh 4-1.wav-2b4cad19efcf6df5130ab59519fdf3bf.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Whoosh 4-1.wav"
-dest_files=["res://.godot/imported/Whoosh 4-1.wav-23394f484e564cd3ce108c411f436c99.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Whoosh 4-1.wav"
+dest_files=["res://.godot/imported/Whoosh 4-1.wav-2b4cad19efcf6df5130ab59519fdf3bf.sample"]
 
 [params]
 

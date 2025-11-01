@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d0vt1iesypjuu"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav-734345a84a5c8fd67cfb9de85f4b89dd.sample"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav-ac26569ed13f4b6f84d93275ea36744b.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav-734345a84a5c8fd67cfb9de85f4b89dd.sample"]
+source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.wav-ac26569ed13f4b6f84d93275ea36744b.sample"]
 
 [params]
 

@@ -1,7 +1,12 @@
 extends PlayerState
 class_name PlayerStateHurt
 
+const HURT_KNOCKBACK_X: int = 500
+const HURT_KNOCKBACK_Y: int = 500
+var has_knocked_back = false
+
 func _ready() -> void:
+	knockback()
 	var new_health = player.current_health - 1
 	
 	player.current_health = new_health
@@ -12,14 +17,17 @@ func _ready() -> void:
 	print(player.current_health)
 	animation_player.play("hurt")
 	
-func _physics_process(_delta: float) -> void:
-	
-	if animation_player.is_playing():
-		pass
-	else:
-		_on_hurt_anim_finished()
+func _physics_process(delta: float) -> void:
+	if player.is_on_floor():
+		state_transition_requested.emit(Player.State.IDLING)
 		
+	player.flip_sprite(!player.facing_left)
+	player.fall(delta)
 
-func _on_hurt_anim_finished() -> void:
-	print("Hurt done")
-	state_transition_requested.emit(Player.State.IDLING)
+func knockback() -> void:
+	player.velocity.y = -HURT_KNOCKBACK_Y
+	player.velocity.x = HURT_KNOCKBACK_X if player.facing_left else -HURT_KNOCKBACK_X
+
+func _exit_tree() -> void:
+	player.velocity.x = 0
+	player.flip_sprite(!player.facing_left)

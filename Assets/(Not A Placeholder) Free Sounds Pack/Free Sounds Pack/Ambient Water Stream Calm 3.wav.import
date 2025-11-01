@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d1pvap20i0cxw"
-path="res://.godot/imported/Ambient Water Stream Calm 3.wav-27ff75d1c773534401f0997fed73554c.sample"
+path="res://.godot/imported/Ambient Water Stream Calm 3.wav-8c6165e2741a844bbe463a6eef08a62c.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Ambient Water Stream Calm 3.wav"
-dest_files=["res://.godot/imported/Ambient Water Stream Calm 3.wav-27ff75d1c773534401f0997fed73554c.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Ambient Water Stream Calm 3.wav"
+dest_files=["res://.godot/imported/Ambient Water Stream Calm 3.wav-8c6165e2741a844bbe463a6eef08a62c.sample"]
 
 [params]
 
