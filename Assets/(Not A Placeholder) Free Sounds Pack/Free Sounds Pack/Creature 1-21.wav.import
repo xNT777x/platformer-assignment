@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://drm5cfy73gkvk"
-path="res://.godot/imported/Creature 1-21.wav-36f869753f0d8622c40f94f49b19be58.sample"
+path="res://.godot/imported/Creature 1-21.wav-8c21786f477c198183ad0e7d2c64dc41.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Creature 1-21.wav"
-dest_files=["res://.godot/imported/Creature 1-21.wav-36f869753f0d8622c40f94f49b19be58.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Creature 1-21.wav"
+dest_files=["res://.godot/imported/Creature 1-21.wav-8c21786f477c198183ad0e7d2c64dc41.sample"]
 
 [params]
 

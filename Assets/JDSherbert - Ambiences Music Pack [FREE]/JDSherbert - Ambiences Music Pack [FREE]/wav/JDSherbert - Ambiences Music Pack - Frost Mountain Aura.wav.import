@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bww3eu2npaj5v"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav-ce547fbcc36d962d4da4d729e32cd82b.sample"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav-19c29cb5b74f98f736e07029d953371e.sample"
 
 [deps]
 
-source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav-ce547fbcc36d962d4da4d729e32cd82b.sample"]
+source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/wav/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - Frost Mountain Aura.wav-19c29cb5b74f98f736e07029d953371e.sample"]
 
 [params]
 

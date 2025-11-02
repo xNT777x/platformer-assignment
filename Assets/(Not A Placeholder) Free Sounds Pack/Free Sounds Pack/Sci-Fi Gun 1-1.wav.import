@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ce05mbp0yxll6"
-path="res://.godot/imported/Sci-Fi Gun 1-1.wav-e3c6b3d13ab298c663a3d2ffbb9be5c8.sample"
+path="res://.godot/imported/Sci-Fi Gun 1-1.wav-823625f15b4a2a1091b7ccddb0e44656.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Sci-Fi Gun 1-1.wav"
-dest_files=["res://.godot/imported/Sci-Fi Gun 1-1.wav-e3c6b3d13ab298c663a3d2ffbb9be5c8.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Sci-Fi Gun 1-1.wav"
+dest_files=["res://.godot/imported/Sci-Fi Gun 1-1.wav-823625f15b4a2a1091b7ccddb0e44656.sample"]
 
 [params]
 

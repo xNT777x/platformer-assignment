@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byy0i85idmmg5"
-path="res://.godot/imported/05.png-f7f4ddacdcfa7630c460b617e732dcc6.ctex"
+path="res://.godot/imported/05.png-e77707cacc93b2444e8561dbc6954059.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/05.png"
-dest_files=["res://.godot/imported/05.png-f7f4ddacdcfa7630c460b617e732dcc6.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/05.png"
+dest_files=["res://.godot/imported/05.png-e77707cacc93b2444e8561dbc6954059.ctex"]
 
 [params]
 
