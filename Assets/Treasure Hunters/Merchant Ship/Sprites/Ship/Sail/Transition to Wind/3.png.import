@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co3gyej6nfejx"
-path="res://.godot/imported/3.png-0156cecb434d06abda5f2b8f346efd97.ctex"
+path="res://.godot/imported/3.png-7fee11ac538b72f2d3c9fc4be740a74a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Transition to Wind/3.png"
-dest_files=["res://.godot/imported/3.png-0156cecb434d06abda5f2b8f346efd97.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Transition to Wind/3.png"
+dest_files=["res://.godot/imported/3.png-7fee11ac538b72f2d3c9fc4be740a74a.ctex"]
 
 [params]
 

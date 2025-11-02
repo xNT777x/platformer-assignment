@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6ux3gbb35who"
-path="res://.godot/imported/Hit 03.png-172e9c4f3814c79747ba48329b819788.ctex"
+path="res://.godot/imported/Hit 03.png-c3917caaabc958b173fcd7dc970a7a16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/08-Hit/Hit 03.png"
-dest_files=["res://.godot/imported/Hit 03.png-172e9c4f3814c79747ba48329b819788.ctex"]
+source_file="res://Assets/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/08-Hit/Hit 03.png"
+dest_files=["res://.godot/imported/Hit 03.png-c3917caaabc958b173fcd7dc970a7a16.ctex"]
 
 [params]
 

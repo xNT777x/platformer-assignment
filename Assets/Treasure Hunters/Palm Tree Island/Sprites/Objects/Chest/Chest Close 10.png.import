@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgn5is70qvuqp"
-path="res://.godot/imported/Chest Close 10.png-fe5affe2051fe18cfee8a6767a6a9ae7.ctex"
+path="res://.godot/imported/Chest Close 10.png-18618f69055dbc990730d8a8fee42af8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Chest/Chest Close 10.png"
-dest_files=["res://.godot/imported/Chest Close 10.png-fe5affe2051fe18cfee8a6767a6a9ae7.ctex"]
+source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Chest/Chest Close 10.png"
+dest_files=["res://.godot/imported/Chest Close 10.png-18618f69055dbc990730d8a8fee42af8.ctex"]
 
 [params]
 
