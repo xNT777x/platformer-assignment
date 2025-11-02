@@ -37,4 +37,5 @@ func handle_facing() -> void:
 		facing_left = false
 
 func flip_sprite() -> void:
-	player_animation.flip_h = facing_left
+	# player_animation.flip_h = facing_left
+	pass
