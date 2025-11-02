@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvfv4fvgrjsco"
-path="res://.godot/imported/Ship Helm Turn 04.png-b770e01132c37367375067fc49aef2e8.ctex"
+path="res://.godot/imported/Ship Helm Turn 04.png-ea4951ba0064da71bb05a347731fefc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 04.png"
-dest_files=["res://.godot/imported/Ship Helm Turn 04.png-b770e01132c37367375067fc49aef2e8.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 04.png"
+dest_files=["res://.godot/imported/Ship Helm Turn 04.png-ea4951ba0064da71bb05a347731fefc3.ctex"]
 
 [params]
 

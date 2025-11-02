@@ -12,7 +12,7 @@ func _ready() -> void:
 	knockback()
 	animation_player.play("death_hit")
 	await wait(3)
-	get_tree().paused = true
+	player.game_over.emit()
 	
 func _physics_process(delta: float) -> void:
 	player.fall(delta)

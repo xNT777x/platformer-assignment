@@ -3,6 +3,8 @@ class_name Player
 
 enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING, ATTACK, HURT, DEATH}
 
+signal game_over
+
 @onready var player_animation: AnimatedSprite2D = %PlayerAnimation
 @onready var sword_hitbox = $PlayerAnimation/SwordHitbox/hitbox
 

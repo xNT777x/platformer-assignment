@@ -1,16 +1,18 @@
-[gd_scene load_steps=18 format=4 uid="uid://dun2q5f76thoi"]
+[gd_scene load_steps=20 format=4 uid="uid://dun2q5f76thoi"]
 
-[ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
-[ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
-[ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
+[ext_resource type="Texture2D" uid="uid://dgrw5ipjpu02d" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png" id="1_swo0f"]
+[ext_resource type="Script" uid="uid://dr8710258n563" path="res://scripts/game_play.gd" id="1_yksfn"]
+[ext_resource type="Texture2D" uid="uid://boumdqsx3fjir" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png" id="2_c7ik0"]
+[ext_resource type="Texture2D" uid="uid://bla15fbbs47l" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png" id="3_c7ik0"]
 [ext_resource type="PackedScene" uid="uid://cq8px4gyb1nlj" path="res://scenes/box.tscn" id="5_8ik6i"]
 [ext_resource type="PackedScene" uid="uid://bc7db47yf57oj" path="res://scenes/coin.tscn" id="6_coaa0"]
 [ext_resource type="PackedScene" uid="uid://ysor4i4v5n4d" path="res://scenes/bgm.tscn" id="7_0daha"]
 [ext_resource type="PackedScene" uid="uid://g168rcnce112" path="res://scenes/random_item.tscn" id="7_x4ub6"]
-[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="9_fm4b6"]
+[ext_resource type="Texture2D" uid="uid://cfa3uaxhr81se" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Big Clouds.png" id="9_fm4b6"]
 [ext_resource type="PackedScene" uid="uid://dqojtyf4in0y3" path="res://scenes/player.tscn" id="10_k38ww"]
-[ext_resource type="Texture2D" uid="uid://q66v2tty602a" path="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Water Reflect Big 01.png" id="10_r1jqb"]
+[ext_resource type="Texture2D" uid="uid://q66v2tty602a" path="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Water Reflect Big 01.png" id="10_r1jqb"]
 [ext_resource type="PackedScene" uid="uid://dl1w6m0osnr1k" path="res://scenes/MrCrab.tscn" id="11_r1jqb"]
+[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://assets/Font/nightmare_10/NIGHTMARE.ttf" id="13_u437b"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fm4b6"]
 
@@ -417,6 +419,7 @@ sources/2 = SubResource("TileSetAtlasSource_hm83i")
 [sub_resource type="CircleShape2D" id="CircleShape2D_r1jqb"]
 
 [node name="GamePlay" type="Node2D"]
+script = ExtResource("1_yksfn")
 
 [node name="BackGround" type="TileMapLayer" parent="."]
 z_index = -1
@@ -610,3 +613,77 @@ position = Vector2(553, 415)
 
 [node name="RandomItem" parent="Chests/Chest4" instance=ExtResource("7_x4ub6")]
 position = Vector2(548, 408)
+
+[node name="game_result" type="CanvasLayer" parent="."]
+
+[node name="victory" type="Control" parent="game_result"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 5.0
+offset_top = -10.0
+offset_right = 1858.0
+offset_bottom = 1107.0
+
+[node name="vic_label" type="Label" parent="game_result/victory"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 722.0
+offset_top = 500.0
+offset_right = 1134.0
+offset_bottom = 651.0
+theme_override_colors/font_color = Color(0.85882354, 0.85882354, 0, 1)
+theme_override_fonts/font = ExtResource("13_u437b")
+theme_override_font_sizes/font_size = 150
+text = "Victory"
+
+[node name="res_text1" type="Label" parent="game_result/victory"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 757.0
+offset_top = 772.0
+offset_right = 1173.0
+offset_bottom = 913.0
+theme_override_colors/font_color = Color(0.86012197, 0.8574369, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Press R to restart
+"
+
+[node name="game_over" type="Control" parent="game_result"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="go_label" type="Label" parent="game_result/game_over"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 22.187
+anchor_top = 12.512001
+anchor_right = 22.187
+anchor_bottom = 12.512001
+offset_left = -175.47998
+offset_top = -8.4800415
+offset_right = 343.52002
+offset_bottom = 142.51996
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("13_u437b")
+theme_override_font_sizes/font_size = 150
+text = "Game Over"
+
+[node name="res_text2" type="Label" parent="game_result/game_over"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 759.0
+offset_top = 753.0
+offset_right = 1175.0
+offset_bottom = 894.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Press R to restart
+"
+
+[connection signal="game_over" from="Player" to="." method="_on_game_over"]
+[connection signal="game_win" from="MrCrab" to="." method="_on_game_win"]

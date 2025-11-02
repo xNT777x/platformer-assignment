@@ -2,15 +2,15 @@
 
 [ext_resource type="PackedScene" uid="uid://dun2q5f76thoi" path="res://scenes/game_play.tscn" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://lu2ykrrpn7j0" path="res://scripts/main.gd" id="1_sugp2"]
-[ext_resource type="Texture2D" uid="uid://btugqv7ytbt65" path="res://Assets/icon/settings.png" id="2_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://btugqv7ytbt65" path="res://assets/icon/settings.png" id="2_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://kcb8lid87q02" path="res://UI/options.tscn" id="4_jyhfs"]
 [ext_resource type="Script" uid="uid://c4ukvwawdor24" path="res://scripts/Items/coin.gd" id="5_choun"]
-[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://Assets/Font/nightmare_10/NIGHTMARE.ttf" id="6_tefeu"]
-[ext_resource type="Texture2D" uid="uid://ddmf8l7amb31b" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png" id="6_ya4ey"]
-[ext_resource type="Texture2D" uid="uid://cpj62s1q37jvh" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/02.png" id="7_eb6dy"]
-[ext_resource type="Texture2D" uid="uid://dyqj0nvlh2hgi" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/03.png" id="8_trceg"]
-[ext_resource type="Texture2D" uid="uid://bamejpcdl5rp5" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/04.png" id="9_a8y0u"]
-[ext_resource type="PackedScene" uid="uid://c57eqjdbogi5u" path="res://UI/banner.tscn" id="11_ya4ey"]
+[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://assets/Font/nightmare_10/NIGHTMARE.ttf" id="6_tefeu"]
+[ext_resource type="Texture2D" uid="uid://ddmf8l7amb31b" path="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png" id="6_ya4ey"]
+[ext_resource type="Texture2D" uid="uid://cpj62s1q37jvh" path="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/02.png" id="7_eb6dy"]
+[ext_resource type="Texture2D" uid="uid://dyqj0nvlh2hgi" path="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/03.png" id="8_trceg"]
+[ext_resource type="Texture2D" uid="uid://bamejpcdl5rp5" path="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/04.png" id="9_a8y0u"]
+[ext_resource type="PackedScene" path="res://UI/banner.tscn" id="11_ya4ey"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sugp2"]
 bg_color = Color(0.92535293, 0.9253528, 0.9253529, 1)

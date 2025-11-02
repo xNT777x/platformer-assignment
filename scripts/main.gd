@@ -26,7 +26,7 @@ func _ready() -> void:
 	
 func _on_button_pressed() -> void:
 	print("Setting Button pressed")
-	options.visible = true	
+	options.visible = true
 	quit.visible = true
 	get_tree().paused = true
 
@@ -39,7 +39,4 @@ func on_options_close():
 	
 func on_coins_changed(v: int) -> void:
 	coin_label.text = "x%d" % v
-	
-func reset():
-	pass
 	

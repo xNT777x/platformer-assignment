@@ -35,6 +35,8 @@ var attack_timer: Timer
 var anticipation_timer: Timer
 var damage_applied_this_attack: bool = false
 
+signal game_win
+
 func _ready() -> void:
 	for child in hearts_parent.get_children():
 		if child is TextureRect or child is Control:
@@ -215,6 +217,7 @@ func _on_death_anim_finished() -> void:
 		animated_sprite_2d.play("Dead_ground")
 	elif _death_stage == 1:
 		animated_sprite_2d.animation_finished.disconnect(_on_death_anim_finished)
+	game_win.emit()
 	queue_free()
 
 func _cancel_attack_and_wait() -> void:

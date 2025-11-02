@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://c57eqjdbogi5u"]
+[gd_scene load_steps=2 format=3 uid="uid://h2vcggt28xtr"]
 
-[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://Assets/Font/nightmare_10/NIGHTMARE.ttf" id="1_jawqf"]
+[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://assets/Font/nightmare_10/NIGHTMARE.ttf" id="1_jawqf"]
 
 [node name="Banner" type="Control"]
 layout_mode = 3

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bct3pclob5ike"
-path="res://.godot/imported/Rock Impact 37.wav-880d5aa6e29ec916fe384c033b9bbdfd.sample"
+path="res://.godot/imported/Rock Impact 37.wav-8a0ba37afc5e32d773b93446779cda0c.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Rock Impact 37.wav"
-dest_files=["res://.godot/imported/Rock Impact 37.wav-880d5aa6e29ec916fe384c033b9bbdfd.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Rock Impact 37.wav"
+dest_files=["res://.godot/imported/Rock Impact 37.wav-8a0ba37afc5e32d773b93446779cda0c.sample"]
 
 [params]
 

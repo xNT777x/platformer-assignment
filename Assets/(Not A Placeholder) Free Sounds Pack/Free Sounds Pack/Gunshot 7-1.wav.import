@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bhkfdwpnb53an"
-path="res://.godot/imported/Gunshot 7-1.wav-06d8dc3689de41d8dc4ea551fc563fd8.sample"
+path="res://.godot/imported/Gunshot 7-1.wav-b0c19050358c71111c374ee55285ed56.sample"
 
 [deps]
 
-source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Gunshot 7-1.wav"
-dest_files=["res://.godot/imported/Gunshot 7-1.wav-06d8dc3689de41d8dc4ea551fc563fd8.sample"]
+source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Gunshot 7-1.wav"
+dest_files=["res://.godot/imported/Gunshot 7-1.wav-b0c19050358c71111c374ee55285ed56.sample"]
 
 [params]
 
