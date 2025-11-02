@@ -9,6 +9,11 @@ enum State {MOVING, JUMPING, FALLING, IN_COYOTE, IDLING, ATTACK, HURT, DEATH}
 var current_state: Node =null
 var state_factory := PlayerStateFactory.new()
 var facing_left = false
+var _delay_timer: Timer
+
+var invulnerable: bool = false
+@export var hurt_invuln_time: float = 0.4
+var _invuln_timer: Timer
 
 @export var speed: int = 500
 @export var gravity: int = 2000
@@ -27,7 +32,11 @@ func _ready() -> void:
 		hearts_list.append(child)
 		child.visible = false
 	_apply_difficulty(GameSettings.difficulty)                 
-	GameSettings.difficulty_changed.connect(_apply_difficulty) 
+	GameSettings.difficulty_changed.connect(_apply_difficulty)
+	_invuln_timer = Timer.new()
+	_invuln_timer.one_shot = true
+	add_child(_invuln_timer)
+	_invuln_timer.timeout.connect(func(): invulnerable = false) 
 
 	# Make hearts visible according to max health
 	"""
@@ -105,5 +114,17 @@ func _process_current_health() -> void:
 	for i in range(current_health):
 		hearts_list[i].get_child(2).visible = true
 
+func take_damage(amount: int) -> void:
+	if invulnerable:
+		return
+	current_health = max(0, current_health - amount)
+	_apply_health_ui()
+	invulnerable = true
+	_invuln_timer.start(hurt_invuln_time)
+	if current_health > 0:
+		switch_state(State.HURT)
+	else:
+		switch_state(State.DEATH)
+		
 func attack():
 	switch_state(State.ATTACK)
