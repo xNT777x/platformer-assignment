@@ -77,14 +77,14 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_cubmi")
 
 [node name="Label" type="Label" parent="opts"]
 layout_mode = 0
-offset_left = 414.0
-offset_top = 28.0
-offset_right = 672.0
-offset_bottom = 129.0
+offset_left = 348.5
+offset_top = 17.778015
+offset_right = 735.5
+offset_bottom = 168.77802
 theme_override_colors/font_color = Color(0.8298801, 0.4709394, 1.92523e-07, 1)
 theme_override_constants/shadow_offset_x = 10
 theme_override_fonts/font = ExtResource("1_m8fpw")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 150
 text = "Options"
 horizontal_alignment = 1
 vertical_alignment = 1
