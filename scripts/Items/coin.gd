@@ -18,7 +18,6 @@ func _on_body_entered(body: Node) -> void:
 	collected = true                       
 	collision.disabled = true
 	set_deferred("monitoring", false)       
-	set_deferred("monitorable", false)
 
 	GameState.add_coins(1)
 	anim.visible = false

@@ -14,8 +14,9 @@ func _ready() -> void:
 	options_menu.request_close.connect(on_options_close)
 	
 	# UI for coin
-	coin_label.text = "x0"
-	GameState  .coins_changed.connect(on_coins_changed)
+	var coins = GameState.coins
+	coin_label.text = "x%d" % coins
+	GameState.coins_changed.connect(on_coins_changed)
 	
 	# Check game paused
 	if get_tree().paused == true:
