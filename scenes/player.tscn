@@ -235,14 +235,17 @@ custom_minimum_size = Vector2(73, 0)
 layout_mode = 2
 
 [node name="heart_bg" type="Sprite2D" parent="HealthBar/HBoxContainer/heart"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_cs1tg")
 
 [node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("39_cs1tg")
 
 [node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")
 
@@ -251,14 +254,17 @@ custom_minimum_size = Vector2(73, 0)
 layout_mode = 2
 
 [node name="heart_bg" type="Sprite2D" parent="HealthBar/HBoxContainer/heart2"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_cs1tg")
 
 [node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart2"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("39_cs1tg")
 
 [node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart2"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")
 
@@ -267,14 +273,17 @@ custom_minimum_size = Vector2(73, 0)
 layout_mode = 2
 
 [node name="heart_bg" type="Sprite2D" parent="HealthBar/HBoxContainer/heart3"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_cs1tg")
 
 [node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart3"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("39_cs1tg")
 
 [node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart3"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")
 
@@ -283,14 +292,17 @@ custom_minimum_size = Vector2(73, 0)
 layout_mode = 2
 
 [node name="heart_bg" type="Sprite2D" parent="HealthBar/HBoxContainer/heart4"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_cs1tg")
 
 [node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart4"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("39_cs1tg")
 
 [node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart4"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")
 
@@ -299,13 +311,16 @@ custom_minimum_size = Vector2(73, 0)
 layout_mode = 2
 
 [node name="heart_bg" type="Sprite2D" parent="HealthBar/HBoxContainer/heart5"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_cs1tg")
 
 [node name="heart_border" type="Sprite2D" parent="HealthBar/HBoxContainer/heart5"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("39_cs1tg")
 
 [node name="heart" type="Sprite2D" parent="HealthBar/HBoxContainer/heart5"]
+position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")

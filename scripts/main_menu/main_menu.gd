@@ -9,7 +9,7 @@ extends Control
 func _ready() -> void:
 	main_buttons.visible = true
 	options.visible = false
-	# audio_control.
+	# audio_control
 
 func _on_start_pressed() -> void:
 	print("Start Button pressed")
