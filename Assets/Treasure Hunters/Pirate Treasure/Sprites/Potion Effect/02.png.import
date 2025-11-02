@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc1hqdde4wxss"
-path="res://.godot/imported/02.png-3b61dd7d051ca126fbb7398dc06fa339.ctex"
+path="res://.godot/imported/02.png-ca167c72b0ba63df8048eab8b148df4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/02.png"
-dest_files=["res://.godot/imported/02.png-3b61dd7d051ca126fbb7398dc06fa339.ctex"]
+source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/02.png"
+dest_files=["res://.godot/imported/02.png-ca167c72b0ba63df8048eab8b148df4b.ctex"]
 
 [params]
 

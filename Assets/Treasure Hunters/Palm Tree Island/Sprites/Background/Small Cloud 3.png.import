@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j1efvtdb1egg"
-path="res://.godot/imported/Small Cloud 3.png-c68ea5cac24d859638d6b57189b54779.ctex"
+path="res://.godot/imported/Small Cloud 3.png-a0a1ef1cfeb639f903450c56f0e11e2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Small Cloud 3.png"
-dest_files=["res://.godot/imported/Small Cloud 3.png-c68ea5cac24d859638d6b57189b54779.ctex"]
+source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Small Cloud 3.png"
+dest_files=["res://.godot/imported/Small Cloud 3.png-a0a1ef1cfeb639f903450c56f0e11e2c.ctex"]
 
 [params]
 

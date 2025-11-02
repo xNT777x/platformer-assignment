@@ -12,7 +12,7 @@ extends CharacterBody2D
 @export var idle_time: float =2.0
 
 @export var attack_damage: float = 0.5
-@export var anticipation_duration: float = 0.35
+@export var anticipation_duration: float = 0.7
 @export var attack_duration: float = 0.25
 @export var attack_hit_time: float = 0.1
 
@@ -189,8 +189,7 @@ func taken_damage(amount: int) -> void:
 	else:
 		_play_death_sequence()
 func _play_hurt() -> void:
-	if animated_sprite_2d.has_animation("Hurt"):
-		animated_sprite_2d.play("Hurt")
+	animated_sprite_2d.play("Hit")
 
 func _play_death_sequence() -> void:
 	_death_stage = 0
