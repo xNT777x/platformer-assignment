@@ -21,7 +21,7 @@ var current_health: int = 5
 var hearts_list: Array[TextureRect] = []
 var _death_stage := 0
 
-@export var hurt_invuln_time: float = 0.4
+@export var hurt_invuln_time: float = 1.0
 var invulnerable := false
 var _invuln_timer: Timer
 
@@ -63,7 +63,7 @@ func _ready() -> void:
 	_invuln_timer = Timer.new()
 	_invuln_timer.one_shot = true
 	add_child(_invuln_timer)
-
+	_invuln_timer.timeout.connect(func(): invulnerable = false)
 func _physics_process(_delta: float) -> void:
 	if is_waiting or is_attacking:
 		velocity.x = 0.0
@@ -161,8 +161,8 @@ func _apply_health_ui() -> void:
 	# Update filled vs empty hearts safely
 	for i in range(min(max_health, hearts_list.size())):
 		var heart = hearts_list[i]
-		var filled = heart.get_node_or_null("Filled")
-		var empty = heart.get_node_or_null("Empty")
+		var filled = heart.get_node_or_null("heart")
+		var empty = heart.get_node_or_null("heart_bg")
 		if filled:
 			filled.visible = i < current_health
 		if empty:
@@ -190,7 +190,17 @@ func taken_damage(amount: int) -> void:
 		_play_death_sequence()
 func _play_hurt() -> void:
 	animated_sprite_2d.play("Hit")
+	animated_sprite_2d.animation_finished.connect(_on_hurt_anim_finished, CONNECT_ONE_SHOT)
 
+func _on_hurt_anim_finished() -> void:
+	if current_health <= 0:
+		return
+	if is_attacking:
+		animated_sprite_2d.play("Attack") # or whatever is appropriate
+	elif is_waiting:
+		animated_sprite_2d.play("Idle")
+	else:
+		animated_sprite_2d.play("Run")
 func _play_death_sequence() -> void:
 	_death_stage = 0
 	animated_sprite_2d.animation_finished.connect(_on_death_anim_finished)

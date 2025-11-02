@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://biwsct2g6tkc"
-path="res://.godot/imported/Book Page 1-2.wav-a9e59a1aa4f891a59abeeb477c3be11d.sample"
+path="res://.godot/imported/Book Page 1-2.wav-545e911c00a39fbf34d6b7d8336f721d.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Book Page 1-2.wav"
-dest_files=["res://.godot/imported/Book Page 1-2.wav-a9e59a1aa4f891a59abeeb477c3be11d.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Book Page 1-2.wav"
+dest_files=["res://.godot/imported/Book Page 1-2.wav-545e911c00a39fbf34d6b7d8336f721d.sample"]
 
 [params]
 

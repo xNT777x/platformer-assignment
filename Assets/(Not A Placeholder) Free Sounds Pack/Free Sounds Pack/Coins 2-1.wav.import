@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ch7ddsujkqlfy"
-path="res://.godot/imported/Coins 2-1.wav-ece021fbcedfc19d00d3b1931aebb51c.sample"
+path="res://.godot/imported/Coins 2-1.wav-c123fbfee49bed88c6b2b30e6bf47c26.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Coins 2-1.wav"
-dest_files=["res://.godot/imported/Coins 2-1.wav-ece021fbcedfc19d00d3b1931aebb51c.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Coins 2-1.wav"
+dest_files=["res://.godot/imported/Coins 2-1.wav-c123fbfee49bed88c6b2b30e6bf47c26.sample"]
 
 [params]
 

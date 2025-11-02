@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://d32ujincqu1m3"
-path="res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg-8ade9f250eef00bbaa0c57a3b9d1c371.oggvorbisstr"
+path="res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg-58c7a731427fb21e7b804f96ba0ec64e.oggvorbisstr"
 
 [deps]
 
-source_file="res://assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/ogg/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg"
-dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg-8ade9f250eef00bbaa0c57a3b9d1c371.oggvorbisstr"]
+source_file="res://Assets/JDSherbert - Ambiences Music Pack [FREE]/JDSherbert - Ambiences Music Pack [FREE]/ogg/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Ambiences Music Pack - The Blackpenny Pub.ogg-58c7a731427fb21e7b804f96ba0ec64e.oggvorbisstr"]
 
 [params]
 

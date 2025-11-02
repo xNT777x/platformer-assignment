@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cq0hfl54kab3d"
-path="res://.godot/imported/Ambient Wind Loop 1.wav-5f6d8810d4df7e1157267379b079c9b9.sample"
+path="res://.godot/imported/Ambient Wind Loop 1.wav-65b7e4916dd37f0e015d82c0bbd27be9.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Ambient Wind Loop 1.wav"
-dest_files=["res://.godot/imported/Ambient Wind Loop 1.wav-5f6d8810d4df7e1157267379b079c9b9.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Ambient Wind Loop 1.wav"
+dest_files=["res://.godot/imported/Ambient Wind Loop 1.wav-65b7e4916dd37f0e015d82c0bbd27be9.sample"]
 
 [params]
 
