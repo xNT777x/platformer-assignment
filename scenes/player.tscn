@@ -212,13 +212,21 @@ height = 19.5
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
 scale = Vector2(4, 4)
 script = ExtResource("1_rkhd4")
+speed = null
+jump_force = null
+gravity = null
 
 [node name="PlayerAnimation" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
+<<<<<<< Updated upstream
 texture_filter = 1
+=======
+position = Vector2(0.19999999, 0)
+>>>>>>> Stashed changes
 sprite_frames = SubResource("SpriteFrames_dt7fs")
 animation = &"attack3"
 
+<<<<<<< Updated upstream
 [node name="SwordHitbox" type="Area2D" parent="PlayerAnimation" groups=["Sword_hitbox"]]
 
 [node name="hitbox" type="CollisionShape2D" parent="PlayerAnimation/SwordHitbox" groups=["Sword_hitbox"]]
@@ -332,3 +340,21 @@ texture = ExtResource("39_cs1tg")
 position = Vector2(-37, -89)
 scale = Vector2(4, 4)
 texture = ExtResource("38_j2b1d")
+=======
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_hax0n")
+
+[node name="StompArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StompArea"]
+
+[node name="HeadArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HeadArea"]
+
+[node name="AttackHitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox"]
+
+[connection signal="body_entered" from="StompArea" to="." method="_on_stomp_area_body_entered"]
+>>>>>>> Stashed changes
