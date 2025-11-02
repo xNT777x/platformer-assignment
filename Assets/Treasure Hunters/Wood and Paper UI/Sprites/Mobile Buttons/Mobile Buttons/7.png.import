@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxmi1d232w6hj"
-path="res://.godot/imported/7.png-f2fa64166afb904e6b505e59f4ec764f.ctex"
+path="res://.godot/imported/7.png-b664a3df2ccf944f4226b4075583d402.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/7.png"
-dest_files=["res://.godot/imported/7.png-f2fa64166afb904e6b505e59f4ec764f.ctex"]
+source_file="res://Assets/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/7.png"
+dest_files=["res://.godot/imported/7.png-b664a3df2ccf944f4226b4075583d402.ctex"]
 
 [params]
 

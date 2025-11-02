@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhnlonl3oawsc"
-path="res://.godot/imported/08.png-dcd52f7c020c003eab3a3b98a20be35a.ctex"
+path="res://.godot/imported/08.png-08611cab98762f20c7fd44117ddd4094.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/08.png"
-dest_files=["res://.godot/imported/08.png-dcd52f7c020c003eab3a3b98a20be35a.ctex"]
+source_file="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/08.png"
+dest_files=["res://.godot/imported/08.png-08611cab98762f20c7fd44117ddd4094.ctex"]
 
 [params]
 

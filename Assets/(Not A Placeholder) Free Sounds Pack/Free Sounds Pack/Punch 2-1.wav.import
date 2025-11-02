@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://csjk6mgtnmsl2"
-path="res://.godot/imported/Punch 2-1.wav-ebdd1f657dd75152d36302ba48d3ed41.sample"
+path="res://.godot/imported/Punch 2-1.wav-c7cffa63fc31110e01f604574dd4bcd8.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Punch 2-1.wav"
-dest_files=["res://.godot/imported/Punch 2-1.wav-ebdd1f657dd75152d36302ba48d3ed41.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Punch 2-1.wav"
+dest_files=["res://.godot/imported/Punch 2-1.wav-c7cffa63fc31110e01f604574dd4bcd8.sample"]
 
 [params]
 

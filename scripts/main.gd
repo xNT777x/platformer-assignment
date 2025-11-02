@@ -19,7 +19,7 @@ func _ready() -> void:
 	
 	# Check game paused
 	if get_tree().paused == true:
-		get_tree().paused = false	
+		get_tree().paused = false	 
 	
 func _on_button_pressed() -> void:
 	print("Setting Button pressed")

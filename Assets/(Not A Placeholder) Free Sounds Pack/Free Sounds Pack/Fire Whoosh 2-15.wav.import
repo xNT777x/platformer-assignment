@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cqaj08o10yuwj"
-path="res://.godot/imported/Fire Whoosh 2-15.wav-08f0ac986f6877aa912bd523fa2960d2.sample"
+path="res://.godot/imported/Fire Whoosh 2-15.wav-6d5e07f382bde35c37d70785a30eca13.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Fire Whoosh 2-15.wav"
-dest_files=["res://.godot/imported/Fire Whoosh 2-15.wav-08f0ac986f6877aa912bd523fa2960d2.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Fire Whoosh 2-15.wav"
+dest_files=["res://.godot/imported/Fire Whoosh 2-15.wav-6d5e07f382bde35c37d70785a30eca13.sample"]
 
 [params]
 
