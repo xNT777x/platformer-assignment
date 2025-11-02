@@ -6,16 +6,18 @@ extends Node2D
 @onready var quit: Button = $setting/quit
 @onready var options_menu: Control = $opt/Options
 @onready var coin_label: Label = $setting/Label
+@onready var banner: Control = $end_game/Banner
 
 func _ready() -> void:
 	options.visible = false	
 	quit.visible = false
 	level.visible = false
 	options_menu.request_close.connect(on_options_close)
+	banner.visible = false 
 	
 	# UI for coin
-	var coins = GameState.coins
-	coin_label.text = "x%d" % coins
+	GameState.coins = 0
+	coin_label.text = "x%d" % GameState.coins 
 	GameState.coins_changed.connect(on_coins_changed)
 	
 	# Check game paused
@@ -38,4 +40,6 @@ func on_options_close():
 func on_coins_changed(v: int) -> void:
 	coin_label.text = "x%d" % v
 	
+func reset():
+	pass
 	

@@ -1,0 +1,83 @@
+[gd_scene load_steps=2 format=3 uid="uid://c57eqjdbogi5u"]
+
+[ext_resource type="FontFile" uid="uid://djhf5xbaoxvt1" path="res://Assets/Font/nightmare_10/NIGHTMARE.ttf" id="1_jawqf"]
+
+[node name="Banner" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 39.0
+offset_top = -78.0
+offset_right = -44.0
+offset_bottom = -220.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="victory" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_left = 5.0
+offset_top = -10.0
+offset_right = 1858.0
+offset_bottom = 1107.0
+
+[node name="vic_label" type="Label" parent="victory"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 722.0
+offset_top = 500.0
+offset_right = 1134.0
+offset_bottom = 651.0
+theme_override_colors/font_color = Color(0.85882354, 0.85882354, 0, 1)
+theme_override_fonts/font = ExtResource("1_jawqf")
+theme_override_font_sizes/font_size = 150
+text = "Victory"
+
+[node name="res_text1" type="Label" parent="victory"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 757.0
+offset_top = 772.0
+offset_right = 1173.0
+offset_bottom = 913.0
+theme_override_colors/font_color = Color(0.86012197, 0.8574369, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Press R to restart
+"
+
+[node name="game_over" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="go_label" type="Label" parent="game_over"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 22.187
+anchor_top = 12.512001
+anchor_right = 22.187
+anchor_bottom = 12.512001
+offset_left = -175.47998
+offset_top = -8.4800415
+offset_right = 343.52002
+offset_bottom = 142.51996
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_jawqf")
+theme_override_font_sizes/font_size = 150
+text = "Game Over"
+
+[node name="res_text2" type="Label" parent="game_over"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 759.0
+offset_top = 753.0
+offset_right = 1175.0
+offset_bottom = 894.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Press R to restart
+"

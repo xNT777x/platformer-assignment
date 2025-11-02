@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://bcnopjvcljnov"]
+[gd_scene load_steps=21 format=3 uid="uid://bcnopjvcljnov"]
 
 [ext_resource type="PackedScene" uid="uid://dun2q5f76thoi" path="res://scenes/game_play.tscn" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://lu2ykrrpn7j0" path="res://scripts/main.gd" id="1_sugp2"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://cpj62s1q37jvh" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/02.png" id="7_eb6dy"]
 [ext_resource type="Texture2D" uid="uid://dyqj0nvlh2hgi" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/03.png" id="8_trceg"]
 [ext_resource type="Texture2D" uid="uid://bamejpcdl5rp5" path="res://Assets/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/04.png" id="9_a8y0u"]
+[ext_resource type="PackedScene" uid="uid://c57eqjdbogi5u" path="res://UI/banner.tscn" id="11_ya4ey"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sugp2"]
 bg_color = Color(0.92535293, 0.9253528, 0.9253529, 1)
@@ -150,6 +151,10 @@ offset_bottom = 65.0
 theme_override_fonts/font = ExtResource("6_tefeu")
 theme_override_font_sizes/font_size = 50
 text = "x0"
+
+[node name="end_game" type="CanvasLayer" parent="."]
+
+[node name="Banner" parent="end_game" instance=ExtResource("11_ya4ey")]
 
 [connection signal="pressed" from="setting/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="setting/quit" to="." method="_on_quit_pressed"]
