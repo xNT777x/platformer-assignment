@@ -20,6 +20,7 @@ extends CharacterBody2D
 var current_health: int = 5
 var hearts_list: Array[TextureRect] = []
 var _death_stage := 0
+var is_dead := false
 
 @export var hurt_invuln_time: float = 1.0
 var invulnerable := false
@@ -174,7 +175,7 @@ func _on_hurtbox_area_entered(area: Area2D) -> void:
 		taken_damage(1)
 
 func taken_damage(amount: int) -> void:
-	if invulnerable or current_health <= 0:
+	if invulnerable or current_health <= 0 or is_dead:
 		return
 
 	current_health = max(0, current_health - amount)
@@ -187,6 +188,8 @@ func taken_damage(amount: int) -> void:
 	if current_health > 0:
 		_play_hurt()
 	else:
+		is_dead = true
+		_cancel_attack_and_wait()
 		_play_death_sequence()
 func _play_hurt() -> void:
 	animated_sprite_2d.play("Hit")
@@ -213,3 +216,12 @@ func _on_death_anim_finished() -> void:
 	elif _death_stage == 1:
 		animated_sprite_2d.animation_finished.disconnect(_on_death_anim_finished)
 	queue_free()
+
+func _cancel_attack_and_wait() -> void:
+# stop all timers and states that could revert animations
+	is_attacking = false
+	is_waiting = false
+	damage_applied_this_attack = false
+	if anticipation_timer: anticipation_timer.stop()
+	if attack_timer: attack_timer.stop()
+	if timer: timer.stop()
