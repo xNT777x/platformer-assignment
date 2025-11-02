@@ -49,6 +49,8 @@ size = Vector2(15.5, 13)
 scale = Vector2(4, 4)
 script = ExtResource("1_yglak")
 
+[node name="Timer" type="Timer" parent="."]
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_1y6p4")
@@ -58,7 +60,5 @@ frame_progress = 0.85583466
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1.25, 5.5)
 shape = SubResource("RectangleShape2D_yd34n")
-
-[node name="Timer" type="Timer" parent="CollisionShape2D"]
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

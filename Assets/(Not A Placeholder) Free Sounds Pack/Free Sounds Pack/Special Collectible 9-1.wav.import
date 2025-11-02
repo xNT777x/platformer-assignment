@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://55suvkib8u5w"
-path="res://.godot/imported/Special Collectible 9-1.wav-68a64fd1e8a71cb43e803952f5a2254d.sample"
+path="res://.godot/imported/Special Collectible 9-1.wav-8f6de5652382b186b6831bbcbd387405.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Special Collectible 9-1.wav"
-dest_files=["res://.godot/imported/Special Collectible 9-1.wav-68a64fd1e8a71cb43e803952f5a2254d.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Special Collectible 9-1.wav"
+dest_files=["res://.godot/imported/Special Collectible 9-1.wav-8f6de5652382b186b6831bbcbd387405.sample"]
 
 [params]
 

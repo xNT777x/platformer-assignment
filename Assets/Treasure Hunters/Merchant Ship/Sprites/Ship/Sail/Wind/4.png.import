@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm7c6ue67422d"
-path="res://.godot/imported/4.png-033cb7fabf96f72a918361171158c90a.ctex"
+path="res://.godot/imported/4.png-51f300b3690db814ba0785257832113e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Wind/4.png"
-dest_files=["res://.godot/imported/4.png-033cb7fabf96f72a918361171158c90a.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Wind/4.png"
+dest_files=["res://.godot/imported/4.png-51f300b3690db814ba0785257832113e.ctex"]
 
 [params]
 

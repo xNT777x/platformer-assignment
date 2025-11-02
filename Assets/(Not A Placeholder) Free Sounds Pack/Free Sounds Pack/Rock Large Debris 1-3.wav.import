@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://g0bisdyrslox"
-path="res://.godot/imported/Rock Large Debris 1-3.wav-cdf17d47a1b72f8eba8b673773c3a1d8.sample"
+path="res://.godot/imported/Rock Large Debris 1-3.wav-02e7a794683e498a70d9a6aa474d067d.sample"
 
 [deps]
 
-source_file="res://assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Rock Large Debris 1-3.wav"
-dest_files=["res://.godot/imported/Rock Large Debris 1-3.wav-cdf17d47a1b72f8eba8b673773c3a1d8.sample"]
+source_file="res://Assets/(Not A Placeholder) Free Sounds Pack/Free Sounds Pack/Rock Large Debris 1-3.wav"
+dest_files=["res://.godot/imported/Rock Large Debris 1-3.wav-02e7a794683e498a70d9a6aa474d067d.sample"]
 
 [params]
 

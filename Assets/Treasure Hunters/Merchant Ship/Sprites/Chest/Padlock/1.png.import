@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daahaeues7wwn"
-path="res://.godot/imported/1.png-5688cc966014c0f3e33f3032b69210e3.ctex"
+path="res://.godot/imported/1.png-2c6f01564a31444edfd306d982622884.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Merchant Ship/Sprites/Chest/Padlock/1.png"
-dest_files=["res://.godot/imported/1.png-5688cc966014c0f3e33f3032b69210e3.ctex"]
+source_file="res://Assets/Treasure Hunters/Merchant Ship/Sprites/Chest/Padlock/1.png"
+dest_files=["res://.godot/imported/1.png-2c6f01564a31444edfd306d982622884.ctex"]
 
 [params]
 

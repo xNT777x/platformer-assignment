@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgrw5ipjpu02d"
-path="res://.godot/imported/Additional Water.png-70f3ab891380e13ee70eb45ad1f48ac6.ctex"
+path="res://.godot/imported/Additional Water.png-2621dc6e269e8982468cd3ab55accb74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png"
-dest_files=["res://.godot/imported/Additional Water.png-70f3ab891380e13ee70eb45ad1f48ac6.ctex"]
+source_file="res://Assets/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png"
+dest_files=["res://.godot/imported/Additional Water.png-2621dc6e269e8982468cd3ab55accb74.ctex"]
 
 [params]
 

@@ -20,7 +20,7 @@ extends CharacterBody2D
 var current_health: int = 5
 var hearts_list: Array[TextureRect] = []
 var _death_stage := 0
-var is_dead := false
+var is_dead :bool= false
 
 @export var hurt_invuln_time: float = 1.0
 var invulnerable := false
@@ -49,6 +49,7 @@ func _ready() -> void:
 	wall_detector.area_entered.connect(_on_wall_detector_area_entered)
 	timer.timeout.connect(_on_timer_timeout)
 	if attack_area.has_signal("body_entered"):
+	
 		attack_area.body_entered.connect(_on_attack_area_entered_body)
 		attack_area.body_exited.connect(_on_attack_area_exited_body)
 
@@ -141,10 +142,6 @@ func _on_attack_finished() -> void:
 	else:
 		animated_sprite_2d.play("Run")
 func _apply_attack_damage() -> void:
-	if not is_attacking or damage_applied_this_attack:
-		return
-	if player_in_range == null:
-		return
 
 	if "take_damage" in player_in_range:
 		player_in_range.take_damage(attack_damage)
